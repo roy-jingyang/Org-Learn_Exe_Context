@@ -16,6 +16,9 @@ fn_log = sys.argv[1]
 
 el = read_disco_csv(fn_log)
 
+# TODO: use only data from selected municipality
+el = el[el['r:municipality'] == 'muni-5']
+
 print(len(pd.unique(el['org:resource'])))
 print(len(pd.unique(el['concept:name'])))
 
@@ -24,14 +27,15 @@ print(len(pd.unique(el['concept:name'])))
 
 all_cand_attrs = [
     # WABO
-    {'attr': 'ct:channel', 'attr_type': 'categorical', 'attr_dim': 'CT'},
-    {'attr': 'tt:weekday', 'attr_type': 'categorical', 'attr_dim': 'TT'}, 
-    {'attr': 'tt:ampm', 'attr_type': 'categorical', 'attr_dim': 'TT'},
-    
-    # BPIC15
-    #{'attr': 'ct:permit_type', 'attr_type': 'categorical', 'attr_dim': 'CT'},
+    #{'attr': 'ct:channel', 'attr_type': 'categorical', 'attr_dim': 'CT'},
     #{'attr': 'tt:weekday', 'attr_type': 'categorical', 'attr_dim': 'TT'}, 
     #{'attr': 'tt:ampm', 'attr_type': 'categorical', 'attr_dim': 'TT'},
+    
+    # BPIC15
+    {'attr': 'ct:permit_type', 'attr_type': 'categorical', 'attr_dim': 'CT'},
+    {'attr': 'at:phase', 'attr_type': 'categorical', 'attr_dim': 'AT'},
+    {'attr': 'tt:weekday', 'attr_type': 'categorical', 'attr_dim': 'TT'}, 
+    {'attr': 'tt:ampm', 'attr_type': 'categorical', 'attr_dim': 'TT'},
     
     # BPIC17
     #{'attr': 'ct:loan_goal', 'attr_type': 'categorical', 'attr_dim': 'CT'},
