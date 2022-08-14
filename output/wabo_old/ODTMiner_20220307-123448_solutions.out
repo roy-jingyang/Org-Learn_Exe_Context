@@ -1,0 +1,1294 @@
+
+===============================================================================
+Step	[0]
+
+-------------------------------------------------------------------------------
+Node [85]: (CT=0, AT=0, TT=69), containing 1497 events.
+	CT=[0]⊥ (null)
+	AT=[0]⊥ (null)
+	TT=[69](`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [86]: (CT=0, AT=0, TT=70), containing 5144 events.
+	CT=[0]⊥ (null)
+	AT=[0]⊥ (null)
+	TT=[70](`tt:weekday` ∈ {'Mon', 'Sat', 'Fri', 'Wed', 'Tue'})
+
+===============================================================================
+Step	[1]
+
+-------------------------------------------------------------------------------
+Node [85]: (CT=0, AT=0, TT=69), containing 1497 events.
+	CT=[0]⊥ (null)
+	AT=[0]⊥ (null)
+	TT=[69](`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [147]: (CT=0, AT=0, TT=99), containing 2488 events.
+	CT=[0]⊥ (null)
+	AT=[0]⊥ (null)
+	TT=[99](`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [148]: (CT=0, AT=0, TT=100), containing 2656 events.
+	CT=[0]⊥ (null)
+	AT=[0]⊥ (null)
+	TT=[100](`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+
+===============================================================================
+Step	[2]
+
+-------------------------------------------------------------------------------
+Node [221]: (CT=97, AT=0, TT=69), containing 1479 events.
+	CT=[97](`ct:channel` ∈ {'Internet', 'Desk', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[69](`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [222]: (CT=98, AT=0, TT=69), containing 18 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[69](`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [223]: (CT=97, AT=0, TT=99), containing 2447 events.
+	CT=[97](`ct:channel` ∈ {'Internet', 'Desk', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[99](`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [224]: (CT=98, AT=0, TT=99), containing 41 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[99](`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [225]: (CT=97, AT=0, TT=100), containing 2620 events.
+	CT=[97](`ct:channel` ∈ {'Internet', 'Desk', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[100](`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [226]: (CT=98, AT=0, TT=100), containing 36 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[100](`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+
+===============================================================================
+Step	[3]
+
+-------------------------------------------------------------------------------
+Node [294]: (CT=126, AT=0, TT=69), containing 1375 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[69](`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [295]: (CT=127, AT=0, TT=69), containing 104 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[69](`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [222]: (CT=98, AT=0, TT=69), containing 18 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[69](`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [296]: (CT=126, AT=0, TT=99), containing 2257 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[99](`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [297]: (CT=127, AT=0, TT=99), containing 190 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[99](`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [224]: (CT=98, AT=0, TT=99), containing 41 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[99](`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [298]: (CT=126, AT=0, TT=100), containing 2420 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[100](`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [299]: (CT=127, AT=0, TT=100), containing 200 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[100](`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [226]: (CT=98, AT=0, TT=100), containing 36 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[100](`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+
+===============================================================================
+Step	[4]
+
+-------------------------------------------------------------------------------
+Node [376]: (CT=98, AT=0, TT=235), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [377]: (CT=98, AT=0, TT=236), containing 17 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [378]: (CT=98, AT=0, TT=237), containing 41 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [379]: (CT=98, AT=0, TT=238), containing 6 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[238](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [380]: (CT=98, AT=0, TT=239), containing 30 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[239](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [381]: (CT=126, AT=0, TT=235), containing 102 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [382]: (CT=126, AT=0, TT=236), containing 1273 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [383]: (CT=127, AT=0, TT=235), containing 23 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [384]: (CT=127, AT=0, TT=236), containing 81 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [385]: (CT=126, AT=0, TT=244), containing 149 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [386]: (CT=126, AT=0, TT=237), containing 2108 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [387]: (CT=127, AT=0, TT=244), containing 18 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [388]: (CT=127, AT=0, TT=237), containing 172 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [389]: (CT=126, AT=0, TT=238), containing 438 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[238](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [390]: (CT=126, AT=0, TT=239), containing 1982 events.
+	CT=[126](`ct:channel` ∈ {'Internet', 'Intern', 'Post'})
+	AT=[0]⊥ (null)
+	TT=[239](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [391]: (CT=127, AT=0, TT=238), containing 46 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[238](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [392]: (CT=127, AT=0, TT=239), containing 154 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[239](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+
+===============================================================================
+Step	[5]
+
+-------------------------------------------------------------------------------
+Node [376]: (CT=98, AT=0, TT=235), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [377]: (CT=98, AT=0, TT=236), containing 17 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [378]: (CT=98, AT=0, TT=237), containing 41 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [379]: (CT=98, AT=0, TT=238), containing 6 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[238](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [380]: (CT=98, AT=0, TT=239), containing 30 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[239](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [473]: (CT=164, AT=0, TT=235), containing 102 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [474]: (CT=164, AT=0, TT=236), containing 1227 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [475]: (CT=166, AT=0, TT=236), containing 46 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [383]: (CT=127, AT=0, TT=235), containing 23 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [384]: (CT=127, AT=0, TT=236), containing 81 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [476]: (CT=164, AT=0, TT=244), containing 147 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [477]: (CT=166, AT=0, TT=244), containing 2 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [478]: (CT=164, AT=0, TT=237), containing 2047 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [479]: (CT=166, AT=0, TT=237), containing 61 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [387]: (CT=127, AT=0, TT=244), containing 18 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [388]: (CT=127, AT=0, TT=237), containing 172 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [480]: (CT=164, AT=0, TT=238), containing 422 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[238](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [481]: (CT=166, AT=0, TT=238), containing 16 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[238](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [482]: (CT=164, AT=0, TT=239), containing 1879 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[239](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [483]: (CT=166, AT=0, TT=239), containing 103 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[239](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [391]: (CT=127, AT=0, TT=238), containing 46 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[238](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+-------------------------------------------------------------------------------
+Node [392]: (CT=127, AT=0, TT=239), containing 154 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[239](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri', 'Tue'})
+
+===============================================================================
+Step	[6]
+
+-------------------------------------------------------------------------------
+Node [376]: (CT=98, AT=0, TT=235), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [377]: (CT=98, AT=0, TT=236), containing 17 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [378]: (CT=98, AT=0, TT=237), containing 41 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [572]: (CT=98, AT=0, TT=384), containing 5 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[384](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri'})
+-------------------------------------------------------------------------------
+Node [573]: (CT=98, AT=0, TT=385), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [574]: (CT=98, AT=0, TT=386), containing 6 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[386](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri'})
+-------------------------------------------------------------------------------
+Node [575]: (CT=98, AT=0, TT=387), containing 24 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [383]: (CT=127, AT=0, TT=235), containing 23 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [384]: (CT=127, AT=0, TT=236), containing 81 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [387]: (CT=127, AT=0, TT=244), containing 18 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [388]: (CT=127, AT=0, TT=237), containing 172 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [576]: (CT=127, AT=0, TT=384), containing 35 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[384](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri'})
+-------------------------------------------------------------------------------
+Node [577]: (CT=127, AT=0, TT=385), containing 11 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [578]: (CT=127, AT=0, TT=386), containing 61 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[386](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri'})
+-------------------------------------------------------------------------------
+Node [579]: (CT=127, AT=0, TT=387), containing 93 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [473]: (CT=164, AT=0, TT=235), containing 102 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [474]: (CT=164, AT=0, TT=236), containing 1227 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [475]: (CT=166, AT=0, TT=236), containing 46 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [476]: (CT=164, AT=0, TT=244), containing 147 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [477]: (CT=166, AT=0, TT=244), containing 2 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [478]: (CT=164, AT=0, TT=237), containing 2047 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [479]: (CT=166, AT=0, TT=237), containing 61 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [580]: (CT=164, AT=0, TT=384), containing 302 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[384](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri'})
+-------------------------------------------------------------------------------
+Node [581]: (CT=164, AT=0, TT=385), containing 120 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [582]: (CT=166, AT=0, TT=384), containing 5 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[384](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri'})
+-------------------------------------------------------------------------------
+Node [583]: (CT=166, AT=0, TT=385), containing 11 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [584]: (CT=164, AT=0, TT=386), containing 717 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[386](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri'})
+-------------------------------------------------------------------------------
+Node [585]: (CT=164, AT=0, TT=387), containing 1162 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [586]: (CT=166, AT=0, TT=386), containing 31 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[386](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat', 'Fri'})
+-------------------------------------------------------------------------------
+Node [587]: (CT=166, AT=0, TT=387), containing 72 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+
+===============================================================================
+Step	[7]
+
+-------------------------------------------------------------------------------
+Node [376]: (CT=98, AT=0, TT=235), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [377]: (CT=98, AT=0, TT=236), containing 17 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [378]: (CT=98, AT=0, TT=237), containing 41 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [383]: (CT=127, AT=0, TT=235), containing 23 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [384]: (CT=127, AT=0, TT=236), containing 81 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [387]: (CT=127, AT=0, TT=244), containing 18 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [388]: (CT=127, AT=0, TT=237), containing 172 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [473]: (CT=164, AT=0, TT=235), containing 102 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [474]: (CT=164, AT=0, TT=236), containing 1227 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [475]: (CT=166, AT=0, TT=236), containing 46 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [476]: (CT=164, AT=0, TT=244), containing 147 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [477]: (CT=166, AT=0, TT=244), containing 2 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[244](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [478]: (CT=164, AT=0, TT=237), containing 2047 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [479]: (CT=166, AT=0, TT=237), containing 61 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[237](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon', 'Wed'})
+-------------------------------------------------------------------------------
+Node [674]: (CT=98, AT=0, TT=468), containing 2 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [675]: (CT=98, AT=0, TT=469), containing 3 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [573]: (CT=98, AT=0, TT=385), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [676]: (CT=98, AT=0, TT=470), containing 6 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [575]: (CT=98, AT=0, TT=387), containing 24 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [677]: (CT=127, AT=0, TT=468), containing 14 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [678]: (CT=127, AT=0, TT=469), containing 21 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [577]: (CT=127, AT=0, TT=385), containing 11 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [679]: (CT=127, AT=0, TT=470), containing 61 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [579]: (CT=127, AT=0, TT=387), containing 93 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [680]: (CT=164, AT=0, TT=468), containing 109 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [681]: (CT=164, AT=0, TT=469), containing 193 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [581]: (CT=164, AT=0, TT=385), containing 120 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [682]: (CT=166, AT=0, TT=468), containing 4 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [683]: (CT=166, AT=0, TT=469), containing 1 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [583]: (CT=166, AT=0, TT=385), containing 11 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [684]: (CT=164, AT=0, TT=478), containing 6 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[478](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [685]: (CT=164, AT=0, TT=470), containing 711 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [585]: (CT=164, AT=0, TT=387), containing 1162 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [686]: (CT=166, AT=0, TT=470), containing 31 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [587]: (CT=166, AT=0, TT=387), containing 72 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+
+===============================================================================
+Step	[8]
+
+-------------------------------------------------------------------------------
+Node [376]: (CT=98, AT=0, TT=235), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [377]: (CT=98, AT=0, TT=236), containing 17 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [749]: (CT=98, AT=0, TT=523), containing 13 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [750]: (CT=98, AT=0, TT=524), containing 28 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [383]: (CT=127, AT=0, TT=235), containing 23 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [384]: (CT=127, AT=0, TT=236), containing 81 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [751]: (CT=127, AT=0, TT=525), containing 18 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [752]: (CT=127, AT=0, TT=523), containing 72 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [753]: (CT=127, AT=0, TT=524), containing 100 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [473]: (CT=164, AT=0, TT=235), containing 102 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[235](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [474]: (CT=164, AT=0, TT=236), containing 1227 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [475]: (CT=166, AT=0, TT=236), containing 46 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[236](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun', 'Thu'})
+-------------------------------------------------------------------------------
+Node [754]: (CT=164, AT=0, TT=528), containing 2 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[528](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [755]: (CT=164, AT=0, TT=525), containing 145 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [756]: (CT=166, AT=0, TT=525), containing 2 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [757]: (CT=164, AT=0, TT=523), containing 1013 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [758]: (CT=164, AT=0, TT=524), containing 1034 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [759]: (CT=166, AT=0, TT=523), containing 31 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [760]: (CT=166, AT=0, TT=524), containing 30 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [573]: (CT=98, AT=0, TT=385), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [575]: (CT=98, AT=0, TT=387), containing 24 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [577]: (CT=127, AT=0, TT=385), containing 11 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [579]: (CT=127, AT=0, TT=387), containing 93 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [581]: (CT=164, AT=0, TT=385), containing 120 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [583]: (CT=166, AT=0, TT=385), containing 11 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [585]: (CT=164, AT=0, TT=387), containing 1162 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [587]: (CT=166, AT=0, TT=387), containing 72 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [674]: (CT=98, AT=0, TT=468), containing 2 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [675]: (CT=98, AT=0, TT=469), containing 3 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [676]: (CT=98, AT=0, TT=470), containing 6 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [677]: (CT=127, AT=0, TT=468), containing 14 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [678]: (CT=127, AT=0, TT=469), containing 21 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [679]: (CT=127, AT=0, TT=470), containing 61 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [680]: (CT=164, AT=0, TT=468), containing 109 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [681]: (CT=164, AT=0, TT=469), containing 193 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [682]: (CT=166, AT=0, TT=468), containing 4 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [683]: (CT=166, AT=0, TT=469), containing 1 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [684]: (CT=164, AT=0, TT=478), containing 6 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[478](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [685]: (CT=164, AT=0, TT=470), containing 711 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [686]: (CT=166, AT=0, TT=470), containing 31 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+
+===============================================================================
+Step	[9]
+
+-------------------------------------------------------------------------------
+Node [801]: (CT=98, AT=0, TT=553), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[553](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [802]: (CT=98, AT=0, TT=554), containing 17 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [803]: (CT=127, AT=0, TT=553), containing 23 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[553](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [804]: (CT=127, AT=0, TT=554), containing 81 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [805]: (CT=164, AT=0, TT=557), containing 4 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[557](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun'})
+-------------------------------------------------------------------------------
+Node [806]: (CT=164, AT=0, TT=553), containing 98 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[553](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [807]: (CT=164, AT=0, TT=559), containing 2 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[559](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun'})
+-------------------------------------------------------------------------------
+Node [808]: (CT=164, AT=0, TT=554), containing 1225 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [809]: (CT=166, AT=0, TT=554), containing 46 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [573]: (CT=98, AT=0, TT=385), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [575]: (CT=98, AT=0, TT=387), containing 24 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [577]: (CT=127, AT=0, TT=385), containing 11 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [579]: (CT=127, AT=0, TT=387), containing 93 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [581]: (CT=164, AT=0, TT=385), containing 120 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [583]: (CT=166, AT=0, TT=385), containing 11 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [585]: (CT=164, AT=0, TT=387), containing 1162 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [587]: (CT=166, AT=0, TT=387), containing 72 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [674]: (CT=98, AT=0, TT=468), containing 2 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [675]: (CT=98, AT=0, TT=469), containing 3 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [676]: (CT=98, AT=0, TT=470), containing 6 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [677]: (CT=127, AT=0, TT=468), containing 14 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [678]: (CT=127, AT=0, TT=469), containing 21 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [679]: (CT=127, AT=0, TT=470), containing 61 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [680]: (CT=164, AT=0, TT=468), containing 109 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [681]: (CT=164, AT=0, TT=469), containing 193 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [682]: (CT=166, AT=0, TT=468), containing 4 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [683]: (CT=166, AT=0, TT=469), containing 1 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [684]: (CT=164, AT=0, TT=478), containing 6 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[478](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [685]: (CT=164, AT=0, TT=470), containing 711 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [686]: (CT=166, AT=0, TT=470), containing 31 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [749]: (CT=98, AT=0, TT=523), containing 13 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [750]: (CT=98, AT=0, TT=524), containing 28 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [751]: (CT=127, AT=0, TT=525), containing 18 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [752]: (CT=127, AT=0, TT=523), containing 72 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [753]: (CT=127, AT=0, TT=524), containing 100 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [754]: (CT=164, AT=0, TT=528), containing 2 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[528](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [755]: (CT=164, AT=0, TT=525), containing 145 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [756]: (CT=166, AT=0, TT=525), containing 2 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [757]: (CT=164, AT=0, TT=523), containing 1013 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [758]: (CT=164, AT=0, TT=524), containing 1034 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [759]: (CT=166, AT=0, TT=523), containing 31 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [760]: (CT=166, AT=0, TT=524), containing 30 events.
+	CT=[166](`ct:channel` ∈ {'Post', 'Intern'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+
+===============================================================================
+Step	[10]
+
+-------------------------------------------------------------------------------
+Node [573]: (CT=98, AT=0, TT=385), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [575]: (CT=98, AT=0, TT=387), containing 24 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [577]: (CT=127, AT=0, TT=385), containing 11 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [579]: (CT=127, AT=0, TT=387), containing 93 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [581]: (CT=164, AT=0, TT=385), containing 120 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [832]: (CT=271, AT=0, TT=385), containing 11 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[385](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [585]: (CT=164, AT=0, TT=387), containing 1162 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [833]: (CT=271, AT=0, TT=387), containing 72 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[387](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Tue'})
+-------------------------------------------------------------------------------
+Node [674]: (CT=98, AT=0, TT=468), containing 2 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [675]: (CT=98, AT=0, TT=469), containing 3 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [676]: (CT=98, AT=0, TT=470), containing 6 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [677]: (CT=127, AT=0, TT=468), containing 14 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [678]: (CT=127, AT=0, TT=469), containing 21 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [679]: (CT=127, AT=0, TT=470), containing 61 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [680]: (CT=164, AT=0, TT=468), containing 109 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [681]: (CT=164, AT=0, TT=469), containing 193 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [834]: (CT=271, AT=0, TT=468), containing 4 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[468](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [835]: (CT=271, AT=0, TT=469), containing 1 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[469](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [684]: (CT=164, AT=0, TT=478), containing 6 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[478](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sat'})
+-------------------------------------------------------------------------------
+Node [685]: (CT=164, AT=0, TT=470), containing 711 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [836]: (CT=271, AT=0, TT=470), containing 31 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[470](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Fri'})
+-------------------------------------------------------------------------------
+Node [749]: (CT=98, AT=0, TT=523), containing 13 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [750]: (CT=98, AT=0, TT=524), containing 28 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [751]: (CT=127, AT=0, TT=525), containing 18 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [752]: (CT=127, AT=0, TT=523), containing 72 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [753]: (CT=127, AT=0, TT=524), containing 100 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [754]: (CT=164, AT=0, TT=528), containing 2 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[528](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [755]: (CT=164, AT=0, TT=525), containing 145 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [837]: (CT=271, AT=0, TT=525), containing 2 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[525](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [757]: (CT=164, AT=0, TT=523), containing 1013 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [758]: (CT=164, AT=0, TT=524), containing 1034 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [838]: (CT=271, AT=0, TT=523), containing 31 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[523](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Mon'})
+-------------------------------------------------------------------------------
+Node [839]: (CT=271, AT=0, TT=524), containing 27 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [840]: (CT=279, AT=0, TT=524), containing 3 events.
+	CT=[279](`ct:channel` ∈ {'Intern'})
+	AT=[0]⊥ (null)
+	TT=[524](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Wed'})
+-------------------------------------------------------------------------------
+Node [801]: (CT=98, AT=0, TT=553), containing 1 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[553](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [802]: (CT=98, AT=0, TT=554), containing 17 events.
+	CT=[98](`ct:channel` ∈ {'e-mail'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [803]: (CT=127, AT=0, TT=553), containing 23 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[553](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [804]: (CT=127, AT=0, TT=554), containing 81 events.
+	CT=[127](`ct:channel` ∈ {'Desk'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [805]: (CT=164, AT=0, TT=557), containing 4 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[557](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Sun'})
+-------------------------------------------------------------------------------
+Node [806]: (CT=164, AT=0, TT=553), containing 98 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[553](`tt:ampm` ∈ {'AM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [807]: (CT=164, AT=0, TT=559), containing 2 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[559](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Sun'})
+-------------------------------------------------------------------------------
+Node [808]: (CT=164, AT=0, TT=554), containing 1225 events.
+	CT=[164](`ct:channel` ∈ {'Internet'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [841]: (CT=271, AT=0, TT=554), containing 45 events.
+	CT=[271](`ct:channel` ∈ {'Post'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})
+-------------------------------------------------------------------------------
+Node [842]: (CT=279, AT=0, TT=554), containing 1 events.
+	CT=[279](`ct:channel` ∈ {'Intern'})
+	AT=[0]⊥ (null)
+	TT=[554](`tt:ampm` ∈ {'PM'}) ∧ (`tt:weekday` ∈ {'Thu'})

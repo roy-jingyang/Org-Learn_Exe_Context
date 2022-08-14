@@ -1,0 +1,2 @@
+/home/n10399429/workspace/OrdinoR/ordinor/execution_context/rule_based/decision_tree.py:48: FutureWarning: The default dtype for empty Series will be 'object' instead of 'float64' in a future version. Specify a dtype explicitly to silence this warning.
+  self._m_event_node = pd.Series()
