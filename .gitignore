@@ -15,6 +15,9 @@ jupyter_notebook_config.py
 # Ignore data file
 data/*
 
+# Ignore pilot testing folder
+pilot/*
+
 # Ignore local folder
 local/*
 

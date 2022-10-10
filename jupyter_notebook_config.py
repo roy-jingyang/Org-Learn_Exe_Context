@@ -402,7 +402,7 @@ c.NotebookApp.password = ''
 
 ## The port the notebook server will listen on (env: JUPYTER_PORT).
 #  Default: 8888
-c.NotebookApp.port = 8803
+c.NotebookApp.port = 8804
 
 ## The number of additional ports to try if the specified port is not available
 #  (env: JUPYTER_PORT_RETRIES).
