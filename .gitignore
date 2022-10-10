@@ -9,6 +9,12 @@
 # Ignore VS Code settings
 .vscode/
 
+# Ignore Jupyter-Lab config file
+jupyter_notebook_config.py
+
 # Ignore data file
 data/*
+
+# Ignore local folder
+local/*
 
