@@ -9,6 +9,9 @@
 # Ignore VS Code settings
 .vscode/
 
+# Ignore ipython-notebook checkpoints
+**/.ipynb_checkpoints
+
 # Ignore data file
 data/*
 
