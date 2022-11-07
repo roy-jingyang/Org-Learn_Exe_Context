@@ -16,10 +16,10 @@
 data/*
 
 # Ignore pilot testing folder
-pilot/*
+#pilot/*
 
 # Ignore local folder
-local/*
+#local/*
 
 # Ignore archived folders and files
 **/archived
