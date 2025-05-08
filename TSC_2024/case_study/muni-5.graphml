@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="size" attr.type="float"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="_class" attr.type="string"/>
+<graph edgedefault="undirected"><node id="CT.16">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.16</data>
+  <data key="d2">120.87570891203704</data>
+</node>
+<node id="560602">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560596">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560429">
+  <data key="d0">org:resource</data>
+</node>
+<node id="1254625">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560613">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560427">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560752">
+  <data key="d0">org:resource</data>
+</node>
+<node id="8492512">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.0">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.0</data>
+  <data key="d2">49.00736111111111</data>
+</node>
+<node id="CT.22">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.22</data>
+  <data key="d2">42.07333333333334</data>
+</node>
+<node id="560608">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.36">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.36</data>
+  <data key="d2">18.055295138888887</data>
+</node>
+<node id="560532">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560604">
+  <data key="d0">org:resource</data>
+</node>
+<node id="9106499">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560530">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.12">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.12</data>
+  <data key="d2">15.0</data>
+</node>
+<node id="560600">
+  <data key="d0">org:resource</data>
+</node>
+<edge source="CT.16" target="560602">
+  <data key="d3">21</data>
+</edge>
+<edge source="CT.16" target="560596">
+  <data key="d3">47</data>
+</edge>
+<edge source="CT.16" target="560429">
+  <data key="d3">14</data>
+</edge>
+<edge source="CT.16" target="1254625">
+  <data key="d3">31</data>
+</edge>
+<edge source="CT.16" target="560613">
+  <data key="d3">13</data>
+</edge>
+<edge source="CT.16" target="560427">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.16" target="560752">
+  <data key="d3">8</data>
+</edge>
+<edge source="CT.16" target="8492512">
+  <data key="d3">5</data>
+</edge>
+<edge source="560602" target="560596">
+  <data key="d3">21</data>
+</edge>
+<edge source="560602" target="560429">
+  <data key="d3">5</data>
+</edge>
+<edge source="560602" target="1254625">
+  <data key="d3">8</data>
+</edge>
+<edge source="560602" target="560613">
+  <data key="d3">2</data>
+</edge>
+<edge source="560602" target="560752">
+  <data key="d3">5</data>
+</edge>
+<edge source="560602" target="8492512">
+  <data key="d3">5</data>
+</edge>
+<edge source="560602" target="CT.0">
+  <data key="d3">3</data>
+</edge>
+<edge source="560602" target="CT.22">
+  <data key="d3">3</data>
+</edge>
+<edge source="560602" target="560608">
+  <data key="d3">3</data>
+</edge>
+<edge source="560602" target="560532">
+  <data key="d3">2</data>
+</edge>
+<edge source="560602" target="560604">
+  <data key="d3">3</data>
+</edge>
+<edge source="560602" target="CT.36">
+  <data key="d3">3</data>
+</edge>
+<edge source="560602" target="9106499">
+  <data key="d3">3</data>
+</edge>
+<edge source="560602" target="CT.12">
+  <data key="d3">1</data>
+</edge>
+<edge source="560602" target="560600">
+  <data key="d3">1</data>
+</edge>
+<edge source="560596" target="560429">
+  <data key="d3">13</data>
+</edge>
+<edge source="560596" target="1254625">
+  <data key="d3">31</data>
+</edge>
+<edge source="560596" target="560613">
+  <data key="d3">13</data>
+</edge>
+<edge source="560596" target="560427">
+  <data key="d3">1</data>
+</edge>
+<edge source="560596" target="560752">
+  <data key="d3">8</data>
+</edge>
+<edge source="560596" target="8492512">
+  <data key="d3">5</data>
+</edge>
+<edge source="560429" target="1254625">
+  <data key="d3">11</data>
+</edge>
+<edge source="560429" target="560613">
+  <data key="d3">4</data>
+</edge>
+<edge source="560429" target="560752">
+  <data key="d3">3</data>
+</edge>
+<edge source="560429" target="CT.0">
+  <data key="d3">5</data>
+</edge>
+<edge source="560429" target="8492512">
+  <data key="d3">1</data>
+</edge>
+<edge source="560429" target="560532">
+  <data key="d3">2</data>
+</edge>
+<edge source="560429" target="560604">
+  <data key="d3">1</data>
+</edge>
+<edge source="560429" target="560530">
+  <data key="d3">2</data>
+</edge>
+<edge source="1254625" target="560613">
+  <data key="d3">13</data>
+</edge>
+<edge source="1254625" target="560427">
+  <data key="d3">1</data>
+</edge>
+<edge source="1254625" target="560752">
+  <data key="d3">2</data>
+</edge>
+<edge source="560613" target="560427">
+  <data key="d3">1</data>
+</edge>
+<edge source="8492512" target="CT.0">
+  <data key="d3">1</data>
+</edge>
+<edge source="8492512" target="CT.22">
+  <data key="d3">1</data>
+</edge>
+<edge source="8492512" target="560608">
+  <data key="d3">2</data>
+</edge>
+<edge source="8492512" target="CT.36">
+  <data key="d3">1</data>
+</edge>
+<edge source="8492512" target="560532">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.0" target="560532">
+  <data key="d3">2</data>
+</edge>
+<edge source="CT.0" target="560604">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.0" target="560530">
+  <data key="d3">2</data>
+</edge>
+<edge source="CT.22" target="560608">
+  <data key="d3">5</data>
+</edge>
+<edge source="CT.22" target="9106499">
+  <data key="d3">2</data>
+</edge>
+<edge source="CT.22" target="560530">
+  <data key="d3">2</data>
+</edge>
+<edge source="CT.22" target="560532">
+  <data key="d3">1</data>
+</edge>
+<edge source="560608" target="CT.36">
+  <data key="d3">1</data>
+</edge>
+<edge source="560608" target="560532">
+  <data key="d3">2</data>
+</edge>
+<edge source="560608" target="9106499">
+  <data key="d3">2</data>
+</edge>
+<edge source="560608" target="560530">
+  <data key="d3">2</data>
+</edge>
+<edge source="CT.36" target="560532">
+  <data key="d3">4</data>
+</edge>
+<edge source="CT.36" target="560604">
+  <data key="d3">6</data>
+</edge>
+<edge source="CT.36" target="9106499">
+  <data key="d3">3</data>
+</edge>
+<edge source="CT.36" target="560530">
+  <data key="d3">1</data>
+</edge>
+<edge source="560532" target="560604">
+  <data key="d3">4</data>
+</edge>
+<edge source="560532" target="560530">
+  <data key="d3">2</data>
+</edge>
+<edge source="560604" target="9106499">
+  <data key="d3">3</data>
+</edge>
+<edge source="560604" target="560530">
+  <data key="d3">1</data>
+</edge>
+<edge source="9106499" target="560530">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.12" target="560600">
+  <data key="d3">1</data>
+</edge>
+</graph></graphml>

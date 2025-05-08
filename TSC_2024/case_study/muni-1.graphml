@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="size" attr.type="float"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="_class" attr.type="string"/>
+<graph edgedefault="undirected"><node id="CT.21">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.21</data>
+  <data key="d2">78.1076388888889</data>
+</node>
+<node id="560872">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.51">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.51</data>
+  <data key="d2">82.2873611111111</data>
+</node>
+<node id="560912">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560925">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.48">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.48</data>
+  <data key="d2">88.76657196969697</data>
+</node>
+<node id="560881">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560462">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.49">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.49</data>
+  <data key="d2">87.08298611111111</data>
+</node>
+<node id="CT.3">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.3</data>
+  <data key="d2">54.96597222222222</data>
+</node>
+<node id="5726485">
+  <data key="d0">org:resource</data>
+</node>
+<node id="2670601">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.47">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.47</data>
+  <data key="d2">83.0</data>
+</node>
+<node id="9264148">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.46">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.46</data>
+  <data key="d2">41.0</data>
+</node>
+<edge source="CT.21" target="560872">
+  <data key="d3">31</data>
+</edge>
+<edge source="CT.21" target="560925">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.21" target="560881">
+  <data key="d3">3</data>
+</edge>
+<edge source="CT.21" target="560462">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.21" target="560912">
+  <data key="d3">2</data>
+</edge>
+<edge source="CT.21" target="9264148">
+  <data key="d3">1</data>
+</edge>
+<edge source="560872" target="CT.51">
+  <data key="d3">5</data>
+</edge>
+<edge source="560872" target="560912">
+  <data key="d3">11</data>
+</edge>
+<edge source="560872" target="560925">
+  <data key="d3">5</data>
+</edge>
+<edge source="560872" target="CT.48">
+  <data key="d3">42</data>
+</edge>
+<edge source="560872" target="560881">
+  <data key="d3">3</data>
+</edge>
+<edge source="560872" target="560462">
+  <data key="d3">2</data>
+</edge>
+<edge source="560872" target="CT.49">
+  <data key="d3">2</data>
+</edge>
+<edge source="560872" target="CT.3">
+  <data key="d3">4</data>
+</edge>
+<edge source="560872" target="5726485">
+  <data key="d3">2</data>
+</edge>
+<edge source="560872" target="2670601">
+  <data key="d3">1</data>
+</edge>
+<edge source="560872" target="CT.47">
+  <data key="d3">1</data>
+</edge>
+<edge source="560872" target="9264148">
+  <data key="d3">9</data>
+</edge>
+<edge source="560872" target="CT.46">
+  <data key="d3">3</data>
+</edge>
+<edge source="CT.51" target="560912">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.51" target="560925">
+  <data key="d3">4</data>
+</edge>
+<edge source="560912" target="CT.48">
+  <data key="d3">6</data>
+</edge>
+<edge source="560912" target="CT.46">
+  <data key="d3">3</data>
+</edge>
+<edge source="CT.48" target="5726485">
+  <data key="d3">2</data>
+</edge>
+<edge source="CT.48" target="560462">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.48" target="2670601">
+  <data key="d3">1</data>
+</edge>
+<edge source="CT.48" target="9264148">
+  <data key="d3">9</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="size" attr.type="float"/>
+<key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="_class" attr.type="string"/>
+<graph edgedefault="undirected"><node id="CT.41">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.41</data>
+  <data key="d2">101.89791666666666</data>
+</node>
+<node id="560752">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560821">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560781">
+  <data key="d0">org:resource</data>
+</node>
+<node id="560812">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.0">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.0</data>
+  <data key="d2">2.3652777777777776</data>
+</node>
+<node id="1550894">
+  <data key="d0">org:resource</data>
+</node>
+<node id="CT.1">
+  <data key="d0">Case Type</data>
+  <data key="d1">CT.1</data>
+  <data key="d2">32.99406828703704</data>
+</node>
+<edge source="CT.41" target="560752">
+  <data key="d3">118</data>
+</edge>
+<edge source="CT.41" target="560821">
+  <data key="d3">11</data>
+</edge>
+<edge source="CT.41" target="560781">
+  <data key="d3">100</data>
+</edge>
+<edge source="CT.41" target="560812">
+  <data key="d3">23</data>
+</edge>
+<edge source="CT.41" target="1550894">
+  <data key="d3">1</data>
+</edge>
+<edge source="560752" target="560821">
+  <data key="d3">9</data>
+</edge>
+<edge source="560752" target="560781">
+  <data key="d3">103</data>
+</edge>
+<edge source="560752" target="560812">
+  <data key="d3">16</data>
+</edge>
+<edge source="560752" target="CT.0">
+  <data key="d3">1</data>
+</edge>
+<edge source="560752" target="1550894">
+  <data key="d3">1</data>
+</edge>
+<edge source="560752" target="CT.1">
+  <data key="d3">14</data>
+</edge>
+<edge source="560821" target="560812">
+  <data key="d3">2</data>
+</edge>
+<edge source="560821" target="560781">
+  <data key="d3">5</data>
+</edge>
+<edge source="560781" target="560812">
+  <data key="d3">13</data>
+</edge>
+<edge source="560781" target="1550894">
+  <data key="d3">1</data>
+</edge>
+<edge source="560781" target="CT.1">
+  <data key="d3">22</data>
+</edge>
+</graph></graphml>
