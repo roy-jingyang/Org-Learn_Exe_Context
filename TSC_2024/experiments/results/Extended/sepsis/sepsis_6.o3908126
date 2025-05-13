@@ -1,0 +1,2866 @@
+/home/yangj29/workspace/TSC_2024-sota
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: lattice
+[1] "data/sepsis.preprocessed.csv"
+[1] 6
+=== Iter 1 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207910.1563 
+   2 Log-likelihood : -207372.2437 
+   3 Log-likelihood : -199627.3419 
+   4 Log-likelihood : -185095.2176 
+   5 Log-likelihood : -181429.8998 
+   6 Log-likelihood : -178746.5001 
+   7 Log-likelihood : -175921.9379 
+   8 Log-likelihood : -173299.5045 
+   9 Log-likelihood : -170947.0371 
+  10 Log-likelihood : -169236.9359 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    11 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207910.6619 
+   2 Log-likelihood : -207559.9443 
+   3 Log-likelihood : -202359.7013 
+   4 Log-likelihood : -187225.0179 
+   5 Log-likelihood : -181568.3859 
+   6 Log-likelihood : -179039.6584 
+   7 Log-likelihood : -176819.4048 
+   8 Log-likelihood : -174251.2398 
+   9 Log-likelihood : -172457.3853 
+  10 Log-likelihood : -171909.0568 
+  11 Log-likelihood : -171622.9941 
+  12 Log-likelihood : -171379.2875 
+  13 Log-likelihood : -171122.2433 
+  14 Log-likelihood : -170802.9801 
+  15 Log-likelihood : -170444.4183 
+  16 Log-likelihood : -170102.4757 
+*** Removing 1 component(s) ***
+  17 Log-likelihood : -171993.5266 
+  18 Log-likelihood : -171753.6639 
+  19 Log-likelihood : -171597.4167 
+  20 Log-likelihood : -171381.0427 
+  21 Log-likelihood : -171149.3166 
+  22 Log-likelihood : -171031.0004 
+  23 Log-likelihood : -170980.3895 
+  24 Log-likelihood : -170912.4870 
+  25 Log-likelihood : -170816.8593 
+  26 Log-likelihood : -170704.1459 
+*** Removing 1 component(s) ***
+  27 Log-likelihood : -172801.0110 
+  28 Log-likelihood : -172625.3767 
+  29 Log-likelihood : -172513.7279 
+  30 Log-likelihood : -172449.9157 
+  31 Log-likelihood : -172395.3287 
+  32 Log-likelihood : -172331.7512 
+  33 Log-likelihood : -172261.7537 
+  34 Log-likelihood : -172213.4508 
+  35 Log-likelihood : -172199.9232 
+  36 Log-likelihood : -172199.2046 
+  37 Log-likelihood : -172199.1567 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207906.2363 
+   2 Log-likelihood : -207238.6265 
+   3 Log-likelihood : -197179.0406 
+   4 Log-likelihood : -184290.5284 
+   5 Log-likelihood : -182294.1793 
+   6 Log-likelihood : -179124.5207 
+   7 Log-likelihood : -176082.8871 
+   8 Log-likelihood : -173816.7045 
+   9 Log-likelihood : -171931.1363 
+  10 Log-likelihood : -170436.1220 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    11 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207904.3506 
+   2 Log-likelihood : -207328.2964 
+   3 Log-likelihood : -200838.2763 
+   4 Log-likelihood : -187364.6531 
+   5 Log-likelihood : -182854.4525 
+   6 Log-likelihood : -179702.9734 
+   7 Log-likelihood : -175815.9227 
+   8 Log-likelihood : -172931.5147 
+*** Removing 1 component(s) ***
+   9 Log-likelihood : -172555.8328 
+  10 Log-likelihood : -171888.6495 
+  11 Log-likelihood : -171152.4865 
+  12 Log-likelihood : -170589.9175 
+  13 Log-likelihood : -170428.8070 
+  14 Log-likelihood : -170407.7568 
+  15 Log-likelihood : -170388.1842 
+  16 Log-likelihood : -170376.6008 
+  17 Log-likelihood : -170373.7115 
+  18 Log-likelihood : -170371.4917 
+  19 Log-likelihood : -170369.5263 
+  20 Log-likelihood : -170367.7856 
+  21 Log-likelihood : -170366.2530 
+  22 Log-likelihood : -170364.9129 
+  23 Log-likelihood : -170363.7637 
+  24 Log-likelihood : -170362.7617 
+  25 Log-likelihood : -170361.9088 
+  26 Log-likelihood : -170361.2158 
+  27 Log-likelihood : -170360.6506 
+  28 Log-likelihood : -170360.1983 
+  29 Log-likelihood : -170359.8439 
+  30 Log-likelihood : -170359.5722 
+  31 Log-likelihood : -170359.3685 
+  32 Log-likelihood : -170359.2189 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207918.4371 
+   2 Log-likelihood : -207555.9091 
+   3 Log-likelihood : -200607.1024 
+   4 Log-likelihood : -185030.5766 
+   5 Log-likelihood : -183022.1413 
+   6 Log-likelihood : -180818.9095 
+   7 Log-likelihood : -177787.1355 
+   8 Log-likelihood : -174672.0796 
+   9 Log-likelihood : -172541.9488 
+  10 Log-likelihood : -171522.4031 
+  11 Log-likelihood : -170982.8713 
+  12 Log-likelihood : -170662.0758 
+  13 Log-likelihood : -170397.0712 
+  14 Log-likelihood : -170129.4977 
+  15 Log-likelihood : -169888.5893 
+*** Removing 1 component(s) ***
+  16 Log-likelihood : -171573.1214 
+  17 Log-likelihood : -171445.8583 
+  18 Log-likelihood : -171384.7533 
+  19 Log-likelihood : -171326.1041 
+  20 Log-likelihood : -171279.8136 
+  21 Log-likelihood : -171215.5741 
+  22 Log-likelihood : -171150.7425 
+  23 Log-likelihood : -171122.4470 
+  24 Log-likelihood : -171097.0210 
+  25 Log-likelihood : -171064.4455 
+  26 Log-likelihood : -171024.8087 
+  27 Log-likelihood : -170987.1687 
+  28 Log-likelihood : -170959.8817 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    29 Log-likelihood: NA
+
+=== Iter 2 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207920.9423 
+   2 Log-likelihood : -207826.0773 
+   3 Log-likelihood : -206466.8102 
+   4 Log-likelihood : -193180.7081 
+   5 Log-likelihood : -183157.2964 
+   6 Log-likelihood : -180917.5691 
+   7 Log-likelihood : -178089.6574 
+   8 Log-likelihood : -175512.0782 
+   9 Log-likelihood : -172844.9060 
+  10 Log-likelihood : -169505.8187 
+  11 Log-likelihood : -167450.0101 
+  12 Log-likelihood : -166549.2950 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    13 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207924.0547 
+   2 Log-likelihood : -207672.1516 
+   3 Log-likelihood : -203557.9884 
+   4 Log-likelihood : -187945.3028 
+   5 Log-likelihood : -181929.9682 
+   6 Log-likelihood : -179906.7744 
+   7 Log-likelihood : -178515.7260 
+   8 Log-likelihood : -177019.4095 
+   9 Log-likelihood : -174982.4090 
+  10 Log-likelihood : -172754.6295 
+  11 Log-likelihood : -171069.5668 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    12 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207916.6609 
+   2 Log-likelihood : -207598.0908 
+   3 Log-likelihood : -202879.5805 
+   4 Log-likelihood : -187975.5310 
+   5 Log-likelihood : -181957.7812 
+   6 Log-likelihood : -178072.5140 
+   7 Log-likelihood : -174808.8807 
+   8 Log-likelihood : -172319.3422 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207908.4016 
+   2 Log-likelihood : -207389.6055 
+   3 Log-likelihood : -201219.2785 
+   4 Log-likelihood : -187268.7089 
+   5 Log-likelihood : -182601.0620 
+   6 Log-likelihood : -178295.9060 
+   7 Log-likelihood : -173915.8062 
+   8 Log-likelihood : -171422.6992 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207917.1707 
+   2 Log-likelihood : -207710.1772 
+   3 Log-likelihood : -204989.8920 
+   4 Log-likelihood : -192170.9309 
+   5 Log-likelihood : -183070.2485 
+   6 Log-likelihood : -179613.0125 
+   7 Log-likelihood : -176318.4511 
+   8 Log-likelihood : -173730.4899 
+   9 Log-likelihood : -172271.5079 
+  10 Log-likelihood : -171553.7893 
+  11 Log-likelihood : -171314.5360 
+  12 Log-likelihood : -171125.3284 
+  13 Log-likelihood : -170927.2525 
+  14 Log-likelihood : -170788.0843 
+  15 Log-likelihood : -170724.7626 
+  16 Log-likelihood : -170710.2393 
+  17 Log-likelihood : -170704.7656 
+  18 Log-likelihood : -170702.1779 
+  19 Log-likelihood : -170701.0153 
+  20 Log-likelihood : -170700.1315 
+  21 Log-likelihood : -170699.3915 
+  22 Log-likelihood : -170698.7638 
+  23 Log-likelihood : -170698.2266 
+  24 Log-likelihood : -170697.7571 
+  25 Log-likelihood : -170697.3483 
+  26 Log-likelihood : -170696.9889 
+  27 Log-likelihood : -170696.6689 
+  28 Log-likelihood : -170696.3818 
+  29 Log-likelihood : -170696.1231 
+  30 Log-likelihood : -170695.8889 
+  31 Log-likelihood : -170695.6764 
+  32 Log-likelihood : -170695.4824 
+  33 Log-likelihood : -170695.2917 
+  34 Log-likelihood : -170695.1293 
+converged
+
+=== Iter 3 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207902.1942 
+   2 Log-likelihood : -207373.2169 
+   3 Log-likelihood : -201370.3419 
+   4 Log-likelihood : -187017.1157 
+   5 Log-likelihood : -181688.9709 
+   6 Log-likelihood : -177979.8031 
+   7 Log-likelihood : -174621.5876 
+   8 Log-likelihood : -172011.9812 
+   9 Log-likelihood : -170625.3263 
+  10 Log-likelihood : -169918.9172 
+  11 Log-likelihood : -169132.7693 
+  12 Log-likelihood : -168463.0284 
+  13 Log-likelihood : -168271.8396 
+*** Removing 1 component(s) ***
+  14 Log-likelihood : -169094.3564 
+  15 Log-likelihood : -169051.1950 
+  16 Log-likelihood : -169047.0700 
+  17 Log-likelihood : -169043.2689 
+  18 Log-likelihood : -169039.5333 
+  19 Log-likelihood : -169036.0047 
+  20 Log-likelihood : -169032.8315 
+  21 Log-likelihood : -169030.1153 
+  22 Log-likelihood : -169027.8923 
+  23 Log-likelihood : -169026.1440 
+  24 Log-likelihood : -169024.8173 
+  25 Log-likelihood : -169023.8482 
+  26 Log-likelihood : -169023.1604 
+  27 Log-likelihood : -169022.6859 
+  28 Log-likelihood : -169022.3663 
+  29 Log-likelihood : -169022.1551 
+  30 Log-likelihood : -169022.0177 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207923.1474 
+   2 Log-likelihood : -207710.7422 
+   3 Log-likelihood : -204026.2540 
+   4 Log-likelihood : -188339.2712 
+   5 Log-likelihood : -181819.4812 
+   6 Log-likelihood : -179113.1169 
+   7 Log-likelihood : -176693.5973 
+   8 Log-likelihood : -174663.2157 
+   9 Log-likelihood : -173260.7155 
+  10 Log-likelihood : -172234.2127 
+  11 Log-likelihood : -171295.8178 
+  12 Log-likelihood : -170510.0673 
+  13 Log-likelihood : -169950.2441 
+  14 Log-likelihood : -169531.3785 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    15 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207921.6824 
+   2 Log-likelihood : -207713.3462 
+   3 Log-likelihood : -204337.1217 
+   4 Log-likelihood : -190170.1064 
+   5 Log-likelihood : -182755.3837 
+   6 Log-likelihood : -178703.6871 
+   7 Log-likelihood : -175404.2922 
+   8 Log-likelihood : -173035.4200 
+   9 Log-likelihood : -171375.7056 
+  10 Log-likelihood : -170643.9163 
+  11 Log-likelihood : -170400.7381 
+  12 Log-likelihood : -170229.6838 
+  13 Log-likelihood : -170013.0568 
+  14 Log-likelihood : -169720.5678 
+*** Removing 1 component(s) ***
+  15 Log-likelihood : -170510.3245 
+  16 Log-likelihood : -170246.0734 
+  17 Log-likelihood : -170098.0561 
+  18 Log-likelihood : -169960.7036 
+  19 Log-likelihood : -169853.7584 
+  20 Log-likelihood : -169845.3093 
+  21 Log-likelihood : -169844.9420 
+  22 Log-likelihood : -169844.7019 
+  23 Log-likelihood : -169844.5240 
+  24 Log-likelihood : -169844.3919 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207906.7715 
+   2 Log-likelihood : -207531.5056 
+   3 Log-likelihood : -203505.4714 
+   4 Log-likelihood : -189344.6345 
+   5 Log-likelihood : -181248.9775 
+   6 Log-likelihood : -178360.8388 
+   7 Log-likelihood : -176095.1704 
+   8 Log-likelihood : -174342.6760 
+   9 Log-likelihood : -172877.4107 
+  10 Log-likelihood : -171670.5332 
+  11 Log-likelihood : -170688.2862 
+  12 Log-likelihood : -169838.3279 
+  13 Log-likelihood : -169040.3869 
+  14 Log-likelihood : -168401.9436 
+  15 Log-likelihood : -168217.9492 
+  16 Log-likelihood : -168207.0747 
+  17 Log-likelihood : -168205.5324 
+  18 Log-likelihood : -168196.7459 
+  19 Log-likelihood : -168191.4696 
+  20 Log-likelihood : -168191.0619 
+  21 Log-likelihood : -168191.0290 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207919.7265 
+   2 Log-likelihood : -207595.5308 
+   3 Log-likelihood : -201946.6628 
+   4 Log-likelihood : -185659.0193 
+   5 Log-likelihood : -181921.3581 
+   6 Log-likelihood : -178862.9096 
+   7 Log-likelihood : -175363.2107 
+   8 Log-likelihood : -172104.6816 
+   9 Log-likelihood : -169849.3720 
+  10 Log-likelihood : -168715.3393 
+  11 Log-likelihood : -168173.6634 
+  12 Log-likelihood : -167724.5876 
+  13 Log-likelihood : -167528.4880 
+  14 Log-likelihood : -167504.2516 
+  15 Log-likelihood : -167499.0249 
+  16 Log-likelihood : -167493.7245 
+  17 Log-likelihood : -167487.1662 
+  18 Log-likelihood : -167475.1271 
+  19 Log-likelihood : -167457.4698 
+  20 Log-likelihood : -167451.4322 
+  21 Log-likelihood : -167450.8781 
+  22 Log-likelihood : -167450.4798 
+  23 Log-likelihood : -167450.1284 
+  24 Log-likelihood : -167449.7745 
+  25 Log-likelihood : -167449.3611 
+  26 Log-likelihood : -167448.8090 
+  27 Log-likelihood : -167447.9835 
+  28 Log-likelihood : -167446.6580 
+  29 Log-likelihood : -167444.4945 
+  30 Log-likelihood : -167441.2042 
+  31 Log-likelihood : -167436.9101 
+  32 Log-likelihood : -167432.3565 
+  33 Log-likelihood : -167428.3125 
+  34 Log-likelihood : -167425.1188 
+  35 Log-likelihood : -167422.6430 
+  36 Log-likelihood : -167420.6281 
+  37 Log-likelihood : -167418.9214 
+  38 Log-likelihood : -167417.4666 
+  39 Log-likelihood : -167416.2355 
+  40 Log-likelihood : -167415.2092 
+  41 Log-likelihood : -167414.3628 
+  42 Log-likelihood : -167413.6739 
+  43 Log-likelihood : -167413.1206 
+  44 Log-likelihood : -167412.6827 
+  45 Log-likelihood : -167412.3354 
+  46 Log-likelihood : -167412.0678 
+  47 Log-likelihood : -167411.8608 
+  48 Log-likelihood : -167411.6988 
+converged
+
+=== Iter 4 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207902.4122 
+   2 Log-likelihood : -207270.1376 
+   3 Log-likelihood : -199528.7517 
+   4 Log-likelihood : -185917.7158 
+   5 Log-likelihood : -181720.6952 
+   6 Log-likelihood : -178941.3751 
+   7 Log-likelihood : -176418.2283 
+   8 Log-likelihood : -173990.2593 
+   9 Log-likelihood : -172223.3939 
+  10 Log-likelihood : -171148.4757 
+  11 Log-likelihood : -170431.0118 
+  12 Log-likelihood : -169901.3863 
+  13 Log-likelihood : -169436.9046 
+  14 Log-likelihood : -168925.7696 
+  15 Log-likelihood : -168259.5593 
+  16 Log-likelihood : -167553.8670 
+  17 Log-likelihood : -167224.9948 
+  18 Log-likelihood : -167171.0809 
+  19 Log-likelihood : -167162.7658 
+  20 Log-likelihood : -167156.2496 
+  21 Log-likelihood : -167149.5218 
+  22 Log-likelihood : -167142.9477 
+  23 Log-likelihood : -167137.2271 
+  24 Log-likelihood : -167132.8115 
+  25 Log-likelihood : -167129.6652 
+  26 Log-likelihood : -167127.5134 
+  27 Log-likelihood : -167126.0380 
+  28 Log-likelihood : -167124.9527 
+  29 Log-likelihood : -167124.0076 
+  30 Log-likelihood : -167123.1264 
+  31 Log-likelihood : -167122.2293 
+  32 Log-likelihood : -167121.2984 
+  33 Log-likelihood : -167120.3467 
+  34 Log-likelihood : -167119.4268 
+  35 Log-likelihood : -167118.5884 
+  36 Log-likelihood : -167117.8789 
+  37 Log-likelihood : -167117.3119 
+  38 Log-likelihood : -167116.8888 
+  39 Log-likelihood : -167116.5922 
+  40 Log-likelihood : -167116.3889 
+  41 Log-likelihood : -167116.2604 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207927.2526 
+   2 Log-likelihood : -207788.1288 
+   3 Log-likelihood : -205032.7954 
+   4 Log-likelihood : -188811.1955 
+   5 Log-likelihood : -182414.3162 
+   6 Log-likelihood : -179024.9050 
+   7 Log-likelihood : -174962.5926 
+   8 Log-likelihood : -171694.5905 
+   9 Log-likelihood : -169987.7974 
+  10 Log-likelihood : -169365.6618 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    11 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207907.2573 
+   2 Log-likelihood : -207441.7311 
+   3 Log-likelihood : -201531.4883 
+   4 Log-likelihood : -186892.0229 
+   5 Log-likelihood : -181394.1926 
+   6 Log-likelihood : -178917.2207 
+   7 Log-likelihood : -176427.2342 
+   8 Log-likelihood : -173754.4516 
+   9 Log-likelihood : -171906.4373 
+  10 Log-likelihood : -170978.1409 
+  11 Log-likelihood : -170346.6404 
+  12 Log-likelihood : -170029.5741 
+  13 Log-likelihood : -169938.1186 
+  14 Log-likelihood : -169858.2976 
+  15 Log-likelihood : -169762.6654 
+  16 Log-likelihood : -169672.5551 
+  17 Log-likelihood : -169592.1799 
+  18 Log-likelihood : -169501.4809 
+  19 Log-likelihood : -169376.1861 
+  20 Log-likelihood : -169207.7570 
+*** Removing 1 component(s) ***
+  21 Log-likelihood : -171942.5112 
+  22 Log-likelihood : -171360.4195 
+  23 Log-likelihood : -170884.4919 
+  24 Log-likelihood : -170329.1512 
+  25 Log-likelihood : -169721.1678 
+  26 Log-likelihood : -169197.8143 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    27 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207913.2718 
+   2 Log-likelihood : -207540.4721 
+   3 Log-likelihood : -203360.2896 
+   4 Log-likelihood : -190563.9623 
+   5 Log-likelihood : -182199.0914 
+   6 Log-likelihood : -178317.7826 
+   7 Log-likelihood : -175246.5770 
+*** Removing 1 component(s) ***
+   8 Log-likelihood : -173946.6398 
+   9 Log-likelihood : -172225.5400 
+  10 Log-likelihood : -171075.2540 
+  11 Log-likelihood : -170587.7265 
+  12 Log-likelihood : -170494.7968 
+  13 Log-likelihood : -170461.8714 
+  14 Log-likelihood : -170437.1170 
+  15 Log-likelihood : -170419.2650 
+  16 Log-likelihood : -170408.1598 
+  17 Log-likelihood : -170401.7882 
+  18 Log-likelihood : -170397.8970 
+  19 Log-likelihood : -170395.0367 
+  20 Log-likelihood : -170392.4545 
+  21 Log-likelihood : -170389.8458 
+  22 Log-likelihood : -170387.0624 
+  23 Log-likelihood : -170383.8412 
+  24 Log-likelihood : -170380.0753 
+  25 Log-likelihood : -170375.3407 
+  26 Log-likelihood : -170369.3033 
+  27 Log-likelihood : -170361.1438 
+  28 Log-likelihood : -170349.8078 
+  29 Log-likelihood : -170333.4359 
+  30 Log-likelihood : -170308.9490 
+  31 Log-likelihood : -170271.4455 
+  32 Log-likelihood : -170214.5807 
+  33 Log-likelihood : -170136.7742 
+  34 Log-likelihood : -170054.0137 
+  35 Log-likelihood : -169995.4485 
+  36 Log-likelihood : -169966.2383 
+  37 Log-likelihood : -169955.2979 
+  38 Log-likelihood : -169952.2103 
+  39 Log-likelihood : -169950.9170 
+  40 Log-likelihood : -169950.3558 
+  41 Log-likelihood : -169949.9046 
+  42 Log-likelihood : -169949.6472 
+  43 Log-likelihood : -169949.3786 
+  44 Log-likelihood : -169949.2041 
+  45 Log-likelihood : -169948.9987 
+  46 Log-likelihood : -169948.8546 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207903.6273 
+   2 Log-likelihood : -207389.3059 
+   3 Log-likelihood : -200560.8275 
+   4 Log-likelihood : -185366.8047 
+   5 Log-likelihood : -181617.6393 
+   6 Log-likelihood : -179496.6638 
+   7 Log-likelihood : -177332.0502 
+   8 Log-likelihood : -175271.5760 
+   9 Log-likelihood : -173814.8106 
+  10 Log-likelihood : -172548.9868 
+  11 Log-likelihood : -171669.0555 
+  12 Log-likelihood : -171060.8175 
+  13 Log-likelihood : -170271.8301 
+  14 Log-likelihood : -169376.8294 
+  15 Log-likelihood : -168884.3309 
+  16 Log-likelihood : -168780.6802 
+  17 Log-likelihood : -168746.3749 
+  18 Log-likelihood : -168720.0399 
+  19 Log-likelihood : -168707.6124 
+  20 Log-likelihood : -168704.6359 
+  21 Log-likelihood : -168703.3489 
+  22 Log-likelihood : -168702.3770 
+  23 Log-likelihood : -168701.5922 
+  24 Log-likelihood : -168700.9304 
+  25 Log-likelihood : -168700.3516 
+  26 Log-likelihood : -168699.8295 
+  27 Log-likelihood : -168699.3464 
+  28 Log-likelihood : -168698.8486 
+  29 Log-likelihood : -168698.4594 
+  30 Log-likelihood : -168697.9961 
+  31 Log-likelihood : -168697.5935 
+  32 Log-likelihood : -168697.2044 
+  33 Log-likelihood : -168696.8283 
+  34 Log-likelihood : -168696.4656 
+  35 Log-likelihood : -168696.1152 
+  36 Log-likelihood : -168695.7769 
+  37 Log-likelihood : -168695.4511 
+  38 Log-likelihood : -168695.1376 
+  39 Log-likelihood : -168694.8363 
+  40 Log-likelihood : -168694.5470 
+  41 Log-likelihood : -168694.2696 
+  42 Log-likelihood : -168694.0038 
+  43 Log-likelihood : -168693.7495 
+  44 Log-likelihood : -168693.5065 
+  45 Log-likelihood : -168693.2736 
+  46 Log-likelihood : -168693.0483 
+  47 Log-likelihood : -168692.8243 
+  48 Log-likelihood : -168692.5817 
+  49 Log-likelihood : -168692.2653 
+  50 Log-likelihood : -168691.7258 
+  51 Log-likelihood : -168690.6552 
+  52 Log-likelihood : -168688.7803 
+  53 Log-likelihood : -168686.5539 
+  54 Log-likelihood : -168684.8614 
+  55 Log-likelihood : -168683.8122 
+  56 Log-likelihood : -168683.1248 
+  57 Log-likelihood : -168682.6273 
+  58 Log-likelihood : -168682.2412 
+  59 Log-likelihood : -168681.9276 
+  60 Log-likelihood : -168681.6638 
+  61 Log-likelihood : -168681.4378 
+  62 Log-likelihood : -168681.2418 
+  63 Log-likelihood : -168681.0703 
+  64 Log-likelihood : -168680.9196 
+converged
+
+=== Iter 5 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207923.7756 
+   2 Log-likelihood : -207701.8741 
+   3 Log-likelihood : -204220.6058 
+   4 Log-likelihood : -190367.5525 
+   5 Log-likelihood : -182826.0705 
+   6 Log-likelihood : -178397.2962 
+   7 Log-likelihood : -174043.1589 
+   8 Log-likelihood : -170628.8327 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207915.4663 
+   2 Log-likelihood : -207570.5959 
+   3 Log-likelihood : -202795.1126 
+   4 Log-likelihood : -186541.9850 
+   5 Log-likelihood : -181266.4471 
+   6 Log-likelihood : -179000.1457 
+   7 Log-likelihood : -177438.5494 
+   8 Log-likelihood : -176250.9934 
+   9 Log-likelihood : -174943.1564 
+  10 Log-likelihood : -173382.1501 
+  11 Log-likelihood : -171733.8633 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    12 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207910.8367 
+   2 Log-likelihood : -207359.3651 
+   3 Log-likelihood : -198960.8686 
+   4 Log-likelihood : -184526.0825 
+   5 Log-likelihood : -181727.9272 
+   6 Log-likelihood : -179612.6782 
+   7 Log-likelihood : -177290.5412 
+   8 Log-likelihood : -174263.0099 
+   9 Log-likelihood : -171723.0659 
+  10 Log-likelihood : -170551.8105 
+  11 Log-likelihood : -169892.2527 
+  12 Log-likelihood : -169462.6100 
+  13 Log-likelihood : -169293.1659 
+  14 Log-likelihood : -169245.0825 
+  15 Log-likelihood : -169217.1402 
+  16 Log-likelihood : -169195.7728 
+  17 Log-likelihood : -169177.4260 
+  18 Log-likelihood : -169161.3702 
+  19 Log-likelihood : -169148.7520 
+  20 Log-likelihood : -169140.3563 
+  21 Log-likelihood : -169135.2124 
+  22 Log-likelihood : -169131.7027 
+  23 Log-likelihood : -169128.6466 
+  24 Log-likelihood : -169125.2829 
+  25 Log-likelihood : -169120.8986 
+  26 Log-likelihood : -169114.4325 
+  27 Log-likelihood : -169103.9514 
+  28 Log-likelihood : -169086.3432 
+  29 Log-likelihood : -169060.1406 
+  30 Log-likelihood : -169033.6582 
+  31 Log-likelihood : -169015.5642 
+  32 Log-likelihood : -168996.9832 
+  33 Log-likelihood : -168960.2321 
+  34 Log-likelihood : -168868.5762 
+  35 Log-likelihood : -168666.0347 
+  36 Log-likelihood : -168454.1369 
+  37 Log-likelihood : -168378.1809 
+  38 Log-likelihood : -168359.5409 
+  39 Log-likelihood : -168355.7000 
+  40 Log-likelihood : -168354.0432 
+  41 Log-likelihood : -168352.7949 
+  42 Log-likelihood : -168351.8134 
+  43 Log-likelihood : -168351.0607 
+  44 Log-likelihood : -168350.5034 
+  45 Log-likelihood : -168350.1061 
+  46 Log-likelihood : -168349.8321 
+  47 Log-likelihood : -168349.6483 
+  48 Log-likelihood : -168349.5277 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207914.0486 
+   2 Log-likelihood : -207544.4470 
+   3 Log-likelihood : -201337.7223 
+   4 Log-likelihood : -185296.7065 
+   5 Log-likelihood : -181505.7532 
+   6 Log-likelihood : -178654.9795 
+   7 Log-likelihood : -175575.8219 
+   8 Log-likelihood : -173222.1424 
+   9 Log-likelihood : -171828.8724 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    10 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207923.2465 
+   2 Log-likelihood : -207769.1977 
+   3 Log-likelihood : -205310.8295 
+   4 Log-likelihood : -190547.1386 
+   5 Log-likelihood : -181805.7756 
+   6 Log-likelihood : -178498.4260 
+   7 Log-likelihood : -174885.5237 
+   8 Log-likelihood : -172418.6083 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+
+=== Iter 6 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207925.4725 
+   2 Log-likelihood : -207809.1703 
+   3 Log-likelihood : -206287.8518 
+   4 Log-likelihood : -197074.1590 
+   5 Log-likelihood : -183922.2358 
+   6 Log-likelihood : -178391.5333 
+   7 Log-likelihood : -175240.8728 
+   8 Log-likelihood : -172541.5370 
+   9 Log-likelihood : -170507.1327 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    10 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207908.5642 
+   2 Log-likelihood : -207431.9415 
+   3 Log-likelihood : -201814.8162 
+   4 Log-likelihood : -187891.5621 
+   5 Log-likelihood : -181908.4096 
+   6 Log-likelihood : -178477.9089 
+   7 Log-likelihood : -175503.8268 
+   8 Log-likelihood : -173037.3186 
+   9 Log-likelihood : -171264.4535 
+  10 Log-likelihood : -170185.6125 
+  11 Log-likelihood : -169807.0521 
+*** Removing 1 component(s) ***
+  12 Log-likelihood : -170561.8065 
+  13 Log-likelihood : -170475.7725 
+  14 Log-likelihood : -170471.5160 
+  15 Log-likelihood : -170469.0260 
+  16 Log-likelihood : -170467.2377 
+  17 Log-likelihood : -170465.8877 
+  18 Log-likelihood : -170464.7440 
+  19 Log-likelihood : -170463.6299 
+  20 Log-likelihood : -170462.3203 
+  21 Log-likelihood : -170460.4704 
+  22 Log-likelihood : -170457.5355 
+  23 Log-likelihood : -170452.9162 
+  24 Log-likelihood : -170446.7681 
+  25 Log-likelihood : -170440.5765 
+  26 Log-likelihood : -170435.7556 
+  27 Log-likelihood : -170432.4750 
+  28 Log-likelihood : -170430.0882 
+  29 Log-likelihood : -170428.1676 
+  30 Log-likelihood : -170426.5541 
+  31 Log-likelihood : -170425.1674 
+  32 Log-likelihood : -170423.9786 
+  33 Log-likelihood : -170422.9714 
+  34 Log-likelihood : -170422.1278 
+  35 Log-likelihood : -170421.4294 
+  36 Log-likelihood : -170420.8594 
+  37 Log-likelihood : -170420.3941 
+  38 Log-likelihood : -170420.0220 
+  39 Log-likelihood : -170419.7263 
+  40 Log-likelihood : -170419.4923 
+  41 Log-likelihood : -170419.3077 
+  42 Log-likelihood : -170419.1376 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207926.0614 
+   2 Log-likelihood : -207843.4590 
+   3 Log-likelihood : -206862.6965 
+   4 Log-likelihood : -200179.2904 
+   5 Log-likelihood : -186802.1774 
+   6 Log-likelihood : -179209.4749 
+   7 Log-likelihood : -176158.0567 
+   8 Log-likelihood : -173737.4301 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207911.9040 
+   2 Log-likelihood : -207424.0385 
+   3 Log-likelihood : -201745.9179 
+   4 Log-likelihood : -187982.3859 
+   5 Log-likelihood : -183193.8598 
+   6 Log-likelihood : -180419.6424 
+   7 Log-likelihood : -177407.6886 
+   8 Log-likelihood : -174995.2213 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207904.5421 
+   2 Log-likelihood : -207304.9419 
+   3 Log-likelihood : -199270.9495 
+   4 Log-likelihood : -184510.4983 
+   5 Log-likelihood : -181553.3118 
+   6 Log-likelihood : -179163.3316 
+   7 Log-likelihood : -177102.8376 
+   8 Log-likelihood : -175259.9171 
+   9 Log-likelihood : -173634.5865 
+  10 Log-likelihood : -172324.3837 
+  11 Log-likelihood : -171236.5508 
+  12 Log-likelihood : -170284.7686 
+  13 Log-likelihood : -169559.8004 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    14 Log-likelihood: NA
+
+=== Iter 7 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207901.0176 
+   2 Log-likelihood : -207193.7857 
+   3 Log-likelihood : -198610.4199 
+   4 Log-likelihood : -184977.6622 
+   5 Log-likelihood : -181656.7562 
+   6 Log-likelihood : -179599.3989 
+   7 Log-likelihood : -177473.2028 
+   8 Log-likelihood : -174621.5233 
+   9 Log-likelihood : -171257.1302 
+  10 Log-likelihood : -169188.5953 
+  11 Log-likelihood : -168712.8594 
+  12 Log-likelihood : -168657.0709 
+  13 Log-likelihood : -168642.1415 
+  14 Log-likelihood : -168634.1499 
+  15 Log-likelihood : -168629.4477 
+  16 Log-likelihood : -168626.6349 
+  17 Log-likelihood : -168624.9034 
+  18 Log-likelihood : -168623.7814 
+  19 Log-likelihood : -168622.9791 
+  20 Log-likelihood : -168622.3572 
+  21 Log-likelihood : -168621.8453 
+  22 Log-likelihood : -168621.4067 
+  23 Log-likelihood : -168621.0216 
+  24 Log-likelihood : -168620.6748 
+  25 Log-likelihood : -168620.3604 
+  26 Log-likelihood : -168620.0720 
+  27 Log-likelihood : -168619.8056 
+  28 Log-likelihood : -168619.5579 
+  29 Log-likelihood : -168619.3263 
+  30 Log-likelihood : -168619.1089 
+  31 Log-likelihood : -168618.9039 
+  32 Log-likelihood : -168618.7101 
+  33 Log-likelihood : -168618.5265 
+  34 Log-likelihood : -168618.3524 
+  35 Log-likelihood : -168618.1874 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207924.1235 
+   2 Log-likelihood : -207716.4624 
+   3 Log-likelihood : -203364.6975 
+   4 Log-likelihood : -186430.1828 
+   5 Log-likelihood : -182587.7678 
+   6 Log-likelihood : -179549.7948 
+   7 Log-likelihood : -175873.1304 
+   8 Log-likelihood : -172476.2990 
+   9 Log-likelihood : -169906.0918 
+  10 Log-likelihood : -168628.8452 
+  11 Log-likelihood : -168250.3070 
+  12 Log-likelihood : -168124.9988 
+  13 Log-likelihood : -168031.2061 
+  14 Log-likelihood : -167966.5388 
+  15 Log-likelihood : -167931.4527 
+  16 Log-likelihood : -167912.3569 
+  17 Log-likelihood : -167897.6460 
+  18 Log-likelihood : -167879.2731 
+  19 Log-likelihood : -167850.2395 
+  20 Log-likelihood : -167803.7109 
+  21 Log-likelihood : -167739.5098 
+  22 Log-likelihood : -167677.3371 
+  23 Log-likelihood : -167639.2102 
+  24 Log-likelihood : -167621.7807 
+  25 Log-likelihood : -167614.4931 
+*** Removing 1 component(s) ***
+  26 Log-likelihood : -169229.6518 
+  27 Log-likelihood : -169133.6333 
+  28 Log-likelihood : -169101.8781 
+  29 Log-likelihood : -169086.3866 
+  30 Log-likelihood : -169078.5531 
+  31 Log-likelihood : -169074.4264 
+  32 Log-likelihood : -169072.1868 
+  33 Log-likelihood : -169070.9249 
+  34 Log-likelihood : -169070.2669 
+  35 Log-likelihood : -169069.8395 
+  36 Log-likelihood : -169069.4959 
+  37 Log-likelihood : -169069.3326 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207922.6972 
+   2 Log-likelihood : -207697.8676 
+   3 Log-likelihood : -205039.3752 
+   4 Log-likelihood : -193985.3815 
+   5 Log-likelihood : -183824.2197 
+   6 Log-likelihood : -179852.2303 
+   7 Log-likelihood : -176723.7307 
+*** Removing 1 component(s) ***
+   8 Log-likelihood : -175364.5193 
+   9 Log-likelihood : -174463.1821 
+  10 Log-likelihood : -174024.2938 
+  11 Log-likelihood : -173503.8922 
+  12 Log-likelihood : -172753.4733 
+  13 Log-likelihood : -171910.7484 
+  14 Log-likelihood : -171387.2287 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    15 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207917.1800 
+   2 Log-likelihood : -207635.0856 
+   3 Log-likelihood : -203134.5674 
+   4 Log-likelihood : -188283.8748 
+   5 Log-likelihood : -182422.2465 
+   6 Log-likelihood : -178956.9937 
+   7 Log-likelihood : -175371.5381 
+   8 Log-likelihood : -172103.5480 
+   9 Log-likelihood : -170125.5676 
+  10 Log-likelihood : -169110.7704 
+  11 Log-likelihood : -168729.1946 
+  12 Log-likelihood : -168645.9483 
+  13 Log-likelihood : -168601.1060 
+  14 Log-likelihood : -168572.1122 
+  15 Log-likelihood : -168543.2426 
+  16 Log-likelihood : -168501.8694 
+  17 Log-likelihood : -168429.7796 
+  18 Log-likelihood : -168296.7861 
+  19 Log-likelihood : -168106.3161 
+  20 Log-likelihood : -167963.8165 
+  21 Log-likelihood : -167907.8672 
+  22 Log-likelihood : -167865.8295 
+  23 Log-likelihood : -167820.3960 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    24 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207923.7670 
+   2 Log-likelihood : -207725.1414 
+   3 Log-likelihood : -204915.7444 
+   4 Log-likelihood : -191752.4107 
+   5 Log-likelihood : -182453.8349 
+   6 Log-likelihood : -179395.1100 
+   7 Log-likelihood : -177280.7846 
+   8 Log-likelihood : -175678.2256 
+   9 Log-likelihood : -174739.4656 
+  10 Log-likelihood : -174271.5428 
+  11 Log-likelihood : -173841.3548 
+  12 Log-likelihood : -173379.0527 
+  13 Log-likelihood : -172955.9097 
+  14 Log-likelihood : -172650.8784 
+  15 Log-likelihood : -172398.9512 
+  16 Log-likelihood : -172128.1959 
+  17 Log-likelihood : -171905.0494 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    18 Log-likelihood: NA
+
+=== Iter 8 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207924.5551 
+   2 Log-likelihood : -207773.8507 
+   3 Log-likelihood : -205689.9945 
+   4 Log-likelihood : -195521.6660 
+   5 Log-likelihood : -185006.2022 
+   6 Log-likelihood : -179597.9529 
+   7 Log-likelihood : -175022.1818 
+   8 Log-likelihood : -171779.2635 
+   9 Log-likelihood : -170196.5489 
+  10 Log-likelihood : -169171.3155 
+  11 Log-likelihood : -168669.5722 
+  12 Log-likelihood : -168397.2928 
+  13 Log-likelihood : -168226.1606 
+  14 Log-likelihood : -168143.1613 
+  15 Log-likelihood : -168118.7936 
+  16 Log-likelihood : -168112.6433 
+  17 Log-likelihood : -168107.5982 
+  18 Log-likelihood : -168102.7607 
+  19 Log-likelihood : -168098.8002 
+  20 Log-likelihood : -168095.8047 
+  21 Log-likelihood : -168093.6427 
+  22 Log-likelihood : -168092.2445 
+  23 Log-likelihood : -168091.4990 
+  24 Log-likelihood : -168091.1690 
+  25 Log-likelihood : -168091.0310 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207917.3804 
+   2 Log-likelihood : -207742.5098 
+   3 Log-likelihood : -205601.2272 
+   4 Log-likelihood : -195394.1393 
+   5 Log-likelihood : -184820.7240 
+   6 Log-likelihood : -180632.4531 
+   7 Log-likelihood : -176665.9136 
+   8 Log-likelihood : -173019.6894 
+   9 Log-likelihood : -170715.9064 
+*** Removing 1 component(s) ***
+  10 Log-likelihood : -170722.9298 
+  11 Log-likelihood : -170486.3677 
+  12 Log-likelihood : -170432.7009 
+  13 Log-likelihood : -170390.8454 
+  14 Log-likelihood : -170366.5373 
+  15 Log-likelihood : -170355.4968 
+  16 Log-likelihood : -170350.3664 
+  17 Log-likelihood : -170347.4840 
+  18 Log-likelihood : -170345.6344 
+  19 Log-likelihood : -170344.3162 
+  20 Log-likelihood : -170343.2799 
+  21 Log-likelihood : -170342.3861 
+  22 Log-likelihood : -170341.5452 
+  23 Log-likelihood : -170340.6834 
+  24 Log-likelihood : -170339.7172 
+  25 Log-likelihood : -170338.5104 
+  26 Log-likelihood : -170336.7664 
+  27 Log-likelihood : -170333.6826 
+  28 Log-likelihood : -170326.9710 
+  29 Log-likelihood : -170313.3712 
+  30 Log-likelihood : -170301.0260 
+  31 Log-likelihood : -170298.0715 
+  32 Log-likelihood : -170297.0399 
+  33 Log-likelihood : -170296.1059 
+  34 Log-likelihood : -170295.3730 
+  35 Log-likelihood : -170295.1194 
+  36 Log-likelihood : -170295.0842 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207907.7768 
+   2 Log-likelihood : -207426.8971 
+   3 Log-likelihood : -200003.6258 
+   4 Log-likelihood : -184516.0476 
+   5 Log-likelihood : -181408.2290 
+   6 Log-likelihood : -178131.1904 
+   7 Log-likelihood : -174350.9734 
+   8 Log-likelihood : -171056.3652 
+   9 Log-likelihood : -168985.4120 
+  10 Log-likelihood : -167729.0573 
+  11 Log-likelihood : -167205.2015 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    12 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207923.3540 
+   2 Log-likelihood : -207770.4671 
+   3 Log-likelihood : -205359.8661 
+   4 Log-likelihood : -191089.6646 
+   5 Log-likelihood : -180940.0264 
+   6 Log-likelihood : -176400.6427 
+   7 Log-likelihood : -172029.3134 
+   8 Log-likelihood : -169504.3020 
+   9 Log-likelihood : -168767.3173 
+  10 Log-likelihood : -168536.4378 
+  11 Log-likelihood : -168387.2522 
+  12 Log-likelihood : -168304.3071 
+  13 Log-likelihood : -168257.7069 
+  14 Log-likelihood : -168231.8154 
+  15 Log-likelihood : -168214.6056 
+  16 Log-likelihood : -168197.6864 
+  17 Log-likelihood : -168176.2646 
+  18 Log-likelihood : -168144.9376 
+  19 Log-likelihood : -168095.7080 
+*** Removing 1 component(s) ***
+  20 Log-likelihood : -168852.3622 
+  21 Log-likelihood : -168745.3848 
+  22 Log-likelihood : -168721.4834 
+  23 Log-likelihood : -168715.8179 
+  24 Log-likelihood : -168712.8911 
+  25 Log-likelihood : -168710.9200 
+  26 Log-likelihood : -168709.4855 
+  27 Log-likelihood : -168708.4143 
+  28 Log-likelihood : -168707.6021 
+  29 Log-likelihood : -168706.9722 
+  30 Log-likelihood : -168706.4640 
+  31 Log-likelihood : -168706.0259 
+  32 Log-likelihood : -168705.6087 
+  33 Log-likelihood : -168705.1542 
+  34 Log-likelihood : -168704.5765 
+  35 Log-likelihood : -168703.7297 
+  36 Log-likelihood : -168702.3809 
+  37 Log-likelihood : -168700.3449 
+  38 Log-likelihood : -168698.0855 
+  39 Log-likelihood : -168696.7612 
+  40 Log-likelihood : -168696.4228 
+  41 Log-likelihood : -168696.3647 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207906.7320 
+   2 Log-likelihood : -207336.9912 
+   3 Log-likelihood : -199902.2670 
+   4 Log-likelihood : -186525.3778 
+   5 Log-likelihood : -182969.4459 
+   6 Log-likelihood : -179777.5595 
+   7 Log-likelihood : -177193.8207 
+   8 Log-likelihood : -175491.1493 
+   9 Log-likelihood : -173995.8177 
+  10 Log-likelihood : -172772.3479 
+  11 Log-likelihood : -172116.3999 
+  12 Log-likelihood : -171787.7279 
+  13 Log-likelihood : -171445.4832 
+  14 Log-likelihood : -171110.7277 
+*** Removing 1 component(s) ***
+  15 Log-likelihood : -173712.3338 
+  16 Log-likelihood : -173229.9364 
+  17 Log-likelihood : -172860.1191 
+  18 Log-likelihood : -172460.1211 
+  19 Log-likelihood : -172082.3333 
+  20 Log-likelihood : -171890.1902 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    21 Log-likelihood: NA
+
+=== Iter 9 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207913.3740 
+   2 Log-likelihood : -207562.0972 
+   3 Log-likelihood : -202806.4440 
+   4 Log-likelihood : -188504.3117 
+   5 Log-likelihood : -180909.2650 
+   6 Log-likelihood : -176935.7488 
+   7 Log-likelihood : -172953.6678 
+   8 Log-likelihood : -169511.8403 
+   9 Log-likelihood : -167601.0040 
+  10 Log-likelihood : -167043.6638 
+  11 Log-likelihood : -166934.2422 
+  12 Log-likelihood : -166910.1127 
+  13 Log-likelihood : -166903.3749 
+  14 Log-likelihood : -166899.5477 
+  15 Log-likelihood : -166897.0929 
+  16 Log-likelihood : -166895.4373 
+  17 Log-likelihood : -166894.2737 
+  18 Log-likelihood : -166893.4265 
+  19 Log-likelihood : -166892.8267 
+  20 Log-likelihood : -166892.3336 
+  21 Log-likelihood : -166891.9383 
+  22 Log-likelihood : -166891.6059 
+  23 Log-likelihood : -166891.3050 
+  24 Log-likelihood : -166891.0000 
+  25 Log-likelihood : -166890.6408 
+  26 Log-likelihood : -166890.1499 
+  27 Log-likelihood : -166889.4131 
+  28 Log-likelihood : -166888.2982 
+  29 Log-likelihood : -166886.9039 
+  30 Log-likelihood : -166885.5325 
+  31 Log-likelihood : -166884.5735 
+  32 Log-likelihood : -166884.0301 
+  33 Log-likelihood : -166883.7791 
+  34 Log-likelihood : -166883.6314 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207916.2482 
+   2 Log-likelihood : -207624.0327 
+   3 Log-likelihood : -203094.2792 
+   4 Log-likelihood : -186679.6307 
+   5 Log-likelihood : -181457.8304 
+   6 Log-likelihood : -177870.7246 
+   7 Log-likelihood : -173745.9733 
+   8 Log-likelihood : -170486.5250 
+   9 Log-likelihood : -168942.8291 
+  10 Log-likelihood : -168308.5447 
+  11 Log-likelihood : -167870.4400 
+  12 Log-likelihood : -167492.2336 
+  13 Log-likelihood : -167241.2094 
+  14 Log-likelihood : -167114.3188 
+  15 Log-likelihood : -167084.1728 
+  16 Log-likelihood : -167062.3520 
+  17 Log-likelihood : -167036.8080 
+  18 Log-likelihood : -167015.1033 
+  19 Log-likelihood : -167009.3136 
+  20 Log-likelihood : -167007.7385 
+  21 Log-likelihood : -167006.5981 
+  22 Log-likelihood : -167005.5250 
+  23 Log-likelihood : -167003.8418 
+  24 Log-likelihood : -167001.2960 
+  25 Log-likelihood : -166998.7886 
+  26 Log-likelihood : -166996.6073 
+  27 Log-likelihood : -166994.7743 
+  28 Log-likelihood : -166993.3629 
+  29 Log-likelihood : -166992.3754 
+  30 Log-likelihood : -166991.7086 
+  31 Log-likelihood : -166991.2256 
+  32 Log-likelihood : -166990.8861 
+  33 Log-likelihood : -166990.6303 
+  34 Log-likelihood : -166990.4352 
+  35 Log-likelihood : -166990.2855 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207926.4965 
+   2 Log-likelihood : -207796.3559 
+   3 Log-likelihood : -205562.6334 
+   4 Log-likelihood : -191471.0761 
+   5 Log-likelihood : -182037.9090 
+   6 Log-likelihood : -178466.2628 
+   7 Log-likelihood : -175212.9698 
+   8 Log-likelihood : -172969.0196 
+   9 Log-likelihood : -171274.7198 
+  10 Log-likelihood : -169856.1228 
+  11 Log-likelihood : -168788.5973 
+  12 Log-likelihood : -168285.9364 
+  13 Log-likelihood : -168182.2743 
+  14 Log-likelihood : -168141.7041 
+  15 Log-likelihood : -168099.9992 
+  16 Log-likelihood : -168069.2146 
+*** Removing 1 component(s) ***
+  17 Log-likelihood : -170025.3777 
+  18 Log-likelihood : -169975.0461 
+  19 Log-likelihood : -169972.7304 
+  20 Log-likelihood : -169971.4733 
+  21 Log-likelihood : -169970.5649 
+  22 Log-likelihood : -169969.8834 
+  23 Log-likelihood : -169969.3621 
+  24 Log-likelihood : -169968.9546 
+  25 Log-likelihood : -169968.6082 
+  26 Log-likelihood : -169968.2967 
+  27 Log-likelihood : -169967.9804 
+  28 Log-likelihood : -169967.7049 
+  29 Log-likelihood : -169967.0141 
+  30 Log-likelihood : -169966.0613 
+  31 Log-likelihood : -169964.2567 
+  32 Log-likelihood : -169960.7210 
+  33 Log-likelihood : -169954.2844 
+  34 Log-likelihood : -169945.2075 
+  35 Log-likelihood : -169936.3649 
+  36 Log-likelihood : -169930.0124 
+  37 Log-likelihood : -169925.9799 
+  38 Log-likelihood : -169923.2338 
+  39 Log-likelihood : -169921.2085 
+  40 Log-likelihood : -169919.6591 
+  41 Log-likelihood : -169918.5037 
+  42 Log-likelihood : -169917.5857 
+  43 Log-likelihood : -169916.7107 
+  44 Log-likelihood : -169915.2856 
+  45 Log-likelihood : -169912.2837 
+  46 Log-likelihood : -169907.9964 
+  47 Log-likelihood : -169903.6880 
+  48 Log-likelihood : -169899.7915 
+  49 Log-likelihood : -169896.7832 
+  50 Log-likelihood : -169894.8193 
+  51 Log-likelihood : -169893.6596 
+  52 Log-likelihood : -169892.8927 
+  53 Log-likelihood : -169892.3387 
+  54 Log-likelihood : -169891.9112 
+  55 Log-likelihood : -169891.5749 
+  56 Log-likelihood : -169891.3139 
+  57 Log-likelihood : -169891.1109 
+  58 Log-likelihood : -169890.9547 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207905.6610 
+   2 Log-likelihood : -207419.2698 
+   3 Log-likelihood : -202233.2072 
+   4 Log-likelihood : -190070.9636 
+   5 Log-likelihood : -182921.5039 
+   6 Log-likelihood : -179163.3767 
+   7 Log-likelihood : -176603.2075 
+   8 Log-likelihood : -174026.1134 
+   9 Log-likelihood : -171665.3075 
+  10 Log-likelihood : -170417.3476 
+  11 Log-likelihood : -170124.9125 
+  12 Log-likelihood : -170033.6024 
+  13 Log-likelihood : -169945.5355 
+  14 Log-likelihood : -169837.6785 
+  15 Log-likelihood : -169673.3196 
+  16 Log-likelihood : -169422.6883 
+  17 Log-likelihood : -169158.1932 
+  18 Log-likelihood : -169022.7103 
+  19 Log-likelihood : -168984.9798 
+  20 Log-likelihood : -168976.5979 
+  21 Log-likelihood : -168973.4689 
+  22 Log-likelihood : -168971.8811 
+  23 Log-likelihood : -168970.9512 
+  24 Log-likelihood : -168970.3296 
+  25 Log-likelihood : -168969.8346 
+  26 Log-likelihood : -168969.4247 
+  27 Log-likelihood : -168969.0670 
+  28 Log-likelihood : -168968.7420 
+  29 Log-likelihood : -168968.4399 
+  30 Log-likelihood : -168968.1511 
+  31 Log-likelihood : -168967.8658 
+  32 Log-likelihood : -168967.5821 
+  33 Log-likelihood : -168967.2942 
+  34 Log-likelihood : -168966.9986 
+  35 Log-likelihood : -168966.6937 
+  36 Log-likelihood : -168966.3769 
+  37 Log-likelihood : -168966.0427 
+  38 Log-likelihood : -168965.6802 
+  39 Log-likelihood : -168965.2670 
+  40 Log-likelihood : -168964.7826 
+  41 Log-likelihood : -168964.2229 
+  42 Log-likelihood : -168963.6398 
+  43 Log-likelihood : -168963.0755 
+  44 Log-likelihood : -168962.5154 
+  45 Log-likelihood : -168961.9827 
+  46 Log-likelihood : -168961.4847 
+  47 Log-likelihood : -168961.0375 
+  48 Log-likelihood : -168960.6558 
+  49 Log-likelihood : -168960.3424 
+  50 Log-likelihood : -168960.0902 
+  51 Log-likelihood : -168959.8872 
+  52 Log-likelihood : -168959.7218 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207919.0342 
+   2 Log-likelihood : -207595.0311 
+   3 Log-likelihood : -203414.3038 
+   4 Log-likelihood : -190436.7125 
+   5 Log-likelihood : -183155.2676 
+   6 Log-likelihood : -179667.1131 
+   7 Log-likelihood : -176089.7442 
+*** Removing 1 component(s) ***
+   8 Log-likelihood : -173784.7199 
+   9 Log-likelihood : -171863.6416 
+  10 Log-likelihood : -171240.8383 
+  11 Log-likelihood : -170991.9628 
+  12 Log-likelihood : -170693.2896 
+  13 Log-likelihood : -170331.4355 
+  14 Log-likelihood : -169977.1534 
+  15 Log-likelihood : -169617.7459 
+  16 Log-likelihood : -169250.3102 
+  17 Log-likelihood : -169013.6005 
+  18 Log-likelihood : -168898.5331 
+  19 Log-likelihood : -168804.0751 
+  20 Log-likelihood : -168693.4091 
+  21 Log-likelihood : -168562.4250 
+  22 Log-likelihood : -168398.7387 
+  23 Log-likelihood : -168194.2225 
+  24 Log-likelihood : -168069.1758 
+  25 Log-likelihood : -168049.5331 
+  26 Log-likelihood : -168048.6468 
+  27 Log-likelihood : -168048.1800 
+  28 Log-likelihood : -168047.8063 
+  29 Log-likelihood : -168047.5004 
+  30 Log-likelihood : -168047.2393 
+  31 Log-likelihood : -168047.0013 
+  32 Log-likelihood : -168046.7621 
+  33 Log-likelihood : -168046.4897 
+  34 Log-likelihood : -168046.1327 
+  35 Log-likelihood : -168045.5984 
+  36 Log-likelihood : -168044.7164 
+  37 Log-likelihood : -168043.2240 
+  38 Log-likelihood : -168040.9998 
+  39 Log-likelihood : -168038.7613 
+  40 Log-likelihood : -168037.6475 
+  41 Log-likelihood : -168037.4016 
+  42 Log-likelihood : -168037.3595 
+converged
+
+=== Iter 10 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207906.6148 
+   2 Log-likelihood : -207300.4783 
+   3 Log-likelihood : -198642.2290 
+   4 Log-likelihood : -184386.0709 
+   5 Log-likelihood : -182054.0100 
+   6 Log-likelihood : -179397.6433 
+   7 Log-likelihood : -176777.0521 
+   8 Log-likelihood : -174168.5073 
+   9 Log-likelihood : -172053.0676 
+  10 Log-likelihood : -171010.6295 
+  11 Log-likelihood : -170695.0237 
+  12 Log-likelihood : -170514.1632 
+  13 Log-likelihood : -170307.0283 
+  14 Log-likelihood : -170099.7463 
+  15 Log-likelihood : -169982.9180 
+  16 Log-likelihood : -169871.2832 
+  17 Log-likelihood : -169720.3933 
+  18 Log-likelihood : -169650.5865 
+  19 Log-likelihood : -169591.6003 
+  20 Log-likelihood : -169497.3585 
+  21 Log-likelihood : -169387.4734 
+  22 Log-likelihood : -169279.6182 
+  23 Log-likelihood : -169257.6754 
+  24 Log-likelihood : -169249.0770 
+  25 Log-likelihood : -169240.4111 
+  26 Log-likelihood : -169233.0851 
+  27 Log-likelihood : -169229.7196 
+  28 Log-likelihood : -169228.9945 
+  29 Log-likelihood : -169228.6744 
+  30 Log-likelihood : -169228.4117 
+  31 Log-likelihood : -169228.1841 
+  32 Log-likelihood : -169227.9834 
+  33 Log-likelihood : -169227.8037 
+  34 Log-likelihood : -169227.6409 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207913.3086 
+   2 Log-likelihood : -207514.1862 
+   3 Log-likelihood : -201640.9101 
+   4 Log-likelihood : -185966.3034 
+   5 Log-likelihood : -181474.9268 
+   6 Log-likelihood : -179019.5607 
+   7 Log-likelihood : -176604.6674 
+   8 Log-likelihood : -174796.9066 
+   9 Log-likelihood : -173258.9200 
+  10 Log-likelihood : -171150.6511 
+  11 Log-likelihood : -169559.7488 
+  12 Log-likelihood : -169196.9502 
+  13 Log-likelihood : -169116.7723 
+  14 Log-likelihood : -169058.5825 
+  15 Log-likelihood : -169020.5417 
+  16 Log-likelihood : -169001.1232 
+  17 Log-likelihood : -168992.6258 
+  18 Log-likelihood : -168988.4255 
+  19 Log-likelihood : -168985.6685 
+  20 Log-likelihood : -168983.2072 
+  21 Log-likelihood : -168980.5094 
+  22 Log-likelihood : -168977.7630 
+  23 Log-likelihood : -168975.5769 
+  24 Log-likelihood : -168974.0561 
+  25 Log-likelihood : -168972.8641 
+  26 Log-likelihood : -168971.8051 
+  27 Log-likelihood : -168970.8700 
+  28 Log-likelihood : -168970.0599 
+  29 Log-likelihood : -168969.3533 
+  30 Log-likelihood : -168968.6986 
+  31 Log-likelihood : -168968.1194 
+  32 Log-likelihood : -168967.6104 
+  33 Log-likelihood : -168967.1899 
+  34 Log-likelihood : -168966.8543 
+  35 Log-likelihood : -168966.6020 
+  36 Log-likelihood : -168966.4275 
+  37 Log-likelihood : -168966.2998 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207922.3452 
+   2 Log-likelihood : -207680.1469 
+   3 Log-likelihood : -202933.3162 
+   4 Log-likelihood : -186199.0005 
+   5 Log-likelihood : -182604.4825 
+   6 Log-likelihood : -180018.2692 
+   7 Log-likelihood : -177091.5476 
+   8 Log-likelihood : -174400.3786 
+   9 Log-likelihood : -171984.2147 
+  10 Log-likelihood : -170258.7594 
+  11 Log-likelihood : -169347.5441 
+  12 Log-likelihood : -168765.9398 
+  13 Log-likelihood : -168227.0499 
+  14 Log-likelihood : -167868.9602 
+  15 Log-likelihood : -167658.6802 
+  16 Log-likelihood : -167508.2137 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    17 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207929.1357 
+   2 Log-likelihood : -207803.6904 
+   3 Log-likelihood : -205223.9596 
+   4 Log-likelihood : -189589.9044 
+   5 Log-likelihood : -183080.4684 
+   6 Log-likelihood : -180869.9656 
+   7 Log-likelihood : -178294.1192 
+   8 Log-likelihood : -175554.3372 
+   9 Log-likelihood : -173081.6399 
+  10 Log-likelihood : -171343.8289 
+  11 Log-likelihood : -170508.8426 
+  12 Log-likelihood : -169893.2898 
+  13 Log-likelihood : -169115.6053 
+  14 Log-likelihood : -168349.7231 
+  15 Log-likelihood : -167879.0873 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    16 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207896.6875 
+   2 Log-likelihood : -207198.0406 
+   3 Log-likelihood : -200067.8584 
+   4 Log-likelihood : -187038.9234 
+   5 Log-likelihood : -181410.1013 
+   6 Log-likelihood : -178172.2696 
+*** Removing 1 component(s) ***
+   7 Log-likelihood : -176628.1181 
+   8 Log-likelihood : -175332.1392 
+   9 Log-likelihood : -174466.3373 
+  10 Log-likelihood : -173586.8571 
+  11 Log-likelihood : -172938.0066 
+  12 Log-likelihood : -172505.1772 
+  13 Log-likelihood : -171903.4564 
+  14 Log-likelihood : -170961.7903 
+  15 Log-likelihood : -169998.5483 
+  16 Log-likelihood : -169592.6975 
+  17 Log-likelihood : -169538.9120 
+  18 Log-likelihood : -169531.8623 
+  19 Log-likelihood : -169527.6190 
+  20 Log-likelihood : -169527.3022 
+  21 Log-likelihood : -169527.0295 
+  22 Log-likelihood : -169526.8255 
+  23 Log-likelihood : -169526.6760 
+converged
+
+=== Iter 11 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207905.4604 
+   2 Log-likelihood : -207308.5090 
+   3 Log-likelihood : -199787.2929 
+   4 Log-likelihood : -186048.3220 
+   5 Log-likelihood : -181814.9181 
+   6 Log-likelihood : -179247.9637 
+   7 Log-likelihood : -177192.6476 
+   8 Log-likelihood : -174463.3074 
+   9 Log-likelihood : -171840.3474 
+  10 Log-likelihood : -170530.9377 
+  11 Log-likelihood : -169790.6564 
+  12 Log-likelihood : -169030.3794 
+  13 Log-likelihood : -168497.8604 
+  14 Log-likelihood : -168283.0222 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    15 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207919.3630 
+   2 Log-likelihood : -207699.9913 
+   3 Log-likelihood : -204528.7282 
+   4 Log-likelihood : -190508.2817 
+   5 Log-likelihood : -181030.7171 
+   6 Log-likelihood : -176965.5789 
+   7 Log-likelihood : -172941.3771 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     8 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207921.2442 
+   2 Log-likelihood : -207725.0714 
+   3 Log-likelihood : -205233.4258 
+   4 Log-likelihood : -194465.9224 
+   5 Log-likelihood : -184410.6265 
+   6 Log-likelihood : -179927.8915 
+   7 Log-likelihood : -176314.6987 
+   8 Log-likelihood : -173315.9248 
+   9 Log-likelihood : -171183.3840 
+  10 Log-likelihood : -169727.0464 
+  11 Log-likelihood : -168670.0106 
+  12 Log-likelihood : -168296.3342 
+  13 Log-likelihood : -168229.9862 
+  14 Log-likelihood : -168152.8165 
+  15 Log-likelihood : -168030.1531 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    16 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207918.0758 
+   2 Log-likelihood : -207584.4802 
+   3 Log-likelihood : -203061.0098 
+   4 Log-likelihood : -189013.0620 
+   5 Log-likelihood : -181874.8224 
+   6 Log-likelihood : -179023.8641 
+   7 Log-likelihood : -176278.4180 
+   8 Log-likelihood : -173650.8493 
+   9 Log-likelihood : -172077.9300 
+  10 Log-likelihood : -171524.3171 
+  11 Log-likelihood : -171282.9582 
+  12 Log-likelihood : -171083.3104 
+  13 Log-likelihood : -170869.7732 
+*** Removing 1 component(s) ***
+  14 Log-likelihood : -172157.0440 
+  15 Log-likelihood : -171950.0799 
+  16 Log-likelihood : -171835.9327 
+  17 Log-likelihood : -171781.7078 
+  18 Log-likelihood : -171753.1502 
+  19 Log-likelihood : -171728.0630 
+  20 Log-likelihood : -171703.4988 
+  21 Log-likelihood : -171677.3188 
+  22 Log-likelihood : -171646.4186 
+  23 Log-likelihood : -171605.9197 
+  24 Log-likelihood : -171549.6561 
+  25 Log-likelihood : -171474.5440 
+  26 Log-likelihood : -171393.2607 
+  27 Log-likelihood : -171338.9191 
+  28 Log-likelihood : -171313.8268 
+  29 Log-likelihood : -171298.3793 
+  30 Log-likelihood : -171293.2459 
+  31 Log-likelihood : -171290.2980 
+  32 Log-likelihood : -171287.7002 
+  33 Log-likelihood : -171286.2055 
+  34 Log-likelihood : -171285.0223 
+  35 Log-likelihood : -171283.7847 
+  36 Log-likelihood : -171282.6056 
+  37 Log-likelihood : -171281.4513 
+  38 Log-likelihood : -171280.3969 
+  39 Log-likelihood : -171279.6222 
+  40 Log-likelihood : -171278.7163 
+  41 Log-likelihood : -171278.0400 
+  42 Log-likelihood : -171277.4046 
+  43 Log-likelihood : -171276.8005 
+  44 Log-likelihood : -171276.3111 
+  45 Log-likelihood : -171275.8636 
+  46 Log-likelihood : -171275.4811 
+  47 Log-likelihood : -171275.0860 
+  48 Log-likelihood : -171274.7907 
+  49 Log-likelihood : -171274.5297 
+  50 Log-likelihood : -171274.2865 
+  51 Log-likelihood : -171274.0627 
+  52 Log-likelihood : -171273.8537 
+  53 Log-likelihood : -171273.6645 
+  54 Log-likelihood : -171273.4819 
+  55 Log-likelihood : -171273.3174 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207908.2641 
+   2 Log-likelihood : -207418.8401 
+   3 Log-likelihood : -200922.0706 
+   4 Log-likelihood : -186521.0235 
+   5 Log-likelihood : -181367.0818 
+   6 Log-likelihood : -178182.5614 
+   7 Log-likelihood : -175334.2058 
+   8 Log-likelihood : -172468.6391 
+   9 Log-likelihood : -170108.0136 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    10 Log-likelihood: NA
+
+=== Iter 12 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207925.7925 
+   2 Log-likelihood : -207728.3703 
+   3 Log-likelihood : -203759.8478 
+   4 Log-likelihood : -187425.7658 
+   5 Log-likelihood : -182721.4134 
+   6 Log-likelihood : -180386.1572 
+   7 Log-likelihood : -177815.9649 
+   8 Log-likelihood : -174978.0279 
+   9 Log-likelihood : -172294.1125 
+  10 Log-likelihood : -170454.5596 
+  11 Log-likelihood : -169140.2997 
+*** Removing 1 component(s) ***
+  12 Log-likelihood : -170754.6110 
+  13 Log-likelihood : -169633.3765 
+  14 Log-likelihood : -169148.7109 
+  15 Log-likelihood : -168822.8159 
+  16 Log-likelihood : -168514.0083 
+  17 Log-likelihood : -168338.0439 
+  18 Log-likelihood : -168295.5318 
+  19 Log-likelihood : -168292.3569 
+  20 Log-likelihood : -168291.3925 
+  21 Log-likelihood : -168290.7709 
+  22 Log-likelihood : -168290.3525 
+  23 Log-likelihood : -168290.1319 
+  24 Log-likelihood : -168289.8527 
+  25 Log-likelihood : -168289.6996 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207916.0523 
+   2 Log-likelihood : -207562.1915 
+   3 Log-likelihood : -202307.3560 
+   4 Log-likelihood : -187313.7034 
+   5 Log-likelihood : -181829.3651 
+   6 Log-likelihood : -179407.3597 
+   7 Log-likelihood : -177419.5924 
+   8 Log-likelihood : -175361.0632 
+   9 Log-likelihood : -173569.0821 
+  10 Log-likelihood : -172150.9358 
+  11 Log-likelihood : -171066.8532 
+  12 Log-likelihood : -170320.8338 
+  13 Log-likelihood : -169797.0799 
+  14 Log-likelihood : -169575.8404 
+  15 Log-likelihood : -169477.3820 
+  16 Log-likelihood : -169349.2678 
+  17 Log-likelihood : -169153.1389 
+  18 Log-likelihood : -168908.0306 
+  19 Log-likelihood : -168694.8693 
+  20 Log-likelihood : -168617.1007 
+  21 Log-likelihood : -168602.8403 
+  22 Log-likelihood : -168592.6479 
+  23 Log-likelihood : -168580.8681 
+  24 Log-likelihood : -168564.0602 
+  25 Log-likelihood : -168534.4475 
+  26 Log-likelihood : -168471.9451 
+  27 Log-likelihood : -168325.5297 
+  28 Log-likelihood : -168017.4366 
+  29 Log-likelihood : -167636.6562 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    30 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207927.3505 
+   2 Log-likelihood : -207762.4218 
+   3 Log-likelihood : -205210.2076 
+   4 Log-likelihood : -193392.4548 
+   5 Log-likelihood : -184486.8491 
+   6 Log-likelihood : -180715.0437 
+   7 Log-likelihood : -177928.1159 
+   8 Log-likelihood : -175114.1908 
+*** Removing 1 component(s) ***
+   9 Log-likelihood : -173522.5369 
+  10 Log-likelihood : -172257.5529 
+  11 Log-likelihood : -171935.2977 
+  12 Log-likelihood : -171874.4753 
+  13 Log-likelihood : -171861.5276 
+  14 Log-likelihood : -171854.3101 
+  15 Log-likelihood : -171848.4128 
+  16 Log-likelihood : -171841.8980 
+  17 Log-likelihood : -171832.4034 
+  18 Log-likelihood : -171815.7969 
+  19 Log-likelihood : -171784.6113 
+  20 Log-likelihood : -171727.0052 
+  21 Log-likelihood : -171630.2770 
+  22 Log-likelihood : -171499.3918 
+  23 Log-likelihood : -171377.9718 
+  24 Log-likelihood : -171292.9602 
+  25 Log-likelihood : -171255.6617 
+  26 Log-likelihood : -171247.9599 
+  27 Log-likelihood : -171242.7661 
+  28 Log-likelihood : -171235.7380 
+  29 Log-likelihood : -171228.7624 
+  30 Log-likelihood : -171226.4413 
+  31 Log-likelihood : -171224.8775 
+  32 Log-likelihood : -171223.7484 
+  33 Log-likelihood : -171222.9217 
+  34 Log-likelihood : -171222.2788 
+  35 Log-likelihood : -171221.7526 
+  36 Log-likelihood : -171221.3089 
+  37 Log-likelihood : -171220.9143 
+  38 Log-likelihood : -171220.5680 
+  39 Log-likelihood : -171220.2476 
+  40 Log-likelihood : -171219.9604 
+  41 Log-likelihood : -171219.6974 
+  42 Log-likelihood : -171219.4565 
+  43 Log-likelihood : -171219.2346 
+  44 Log-likelihood : -171219.0301 
+  45 Log-likelihood : -171218.8409 
+  46 Log-likelihood : -171218.6658 
+  47 Log-likelihood : -171218.5038 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207912.8560 
+   2 Log-likelihood : -207530.9430 
+   3 Log-likelihood : -201378.7444 
+   4 Log-likelihood : -185705.1490 
+   5 Log-likelihood : -182026.0594 
+   6 Log-likelihood : -179662.8285 
+   7 Log-likelihood : -177093.5286 
+   8 Log-likelihood : -173981.3926 
+   9 Log-likelihood : -171711.8273 
+  10 Log-likelihood : -170747.4332 
+  11 Log-likelihood : -170293.8363 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    12 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207923.8233 
+   2 Log-likelihood : -207734.1685 
+   3 Log-likelihood : -204064.7825 
+   4 Log-likelihood : -187392.8328 
+   5 Log-likelihood : -182517.4758 
+   6 Log-likelihood : -179424.9522 
+   7 Log-likelihood : -175654.7135 
+   8 Log-likelihood : -172591.6793 
+   9 Log-likelihood : -170769.5675 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    10 Log-likelihood: NA
+
+=== Iter 13 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207916.6715 
+   2 Log-likelihood : -207593.1087 
+   3 Log-likelihood : -203105.2670 
+   4 Log-likelihood : -189224.4787 
+   5 Log-likelihood : -184014.6891 
+   6 Log-likelihood : -181607.5152 
+   7 Log-likelihood : -178437.3334 
+   8 Log-likelihood : -175346.3427 
+   9 Log-likelihood : -173089.1281 
+  10 Log-likelihood : -171688.6111 
+  11 Log-likelihood : -170789.9825 
+  12 Log-likelihood : -169794.5727 
+  13 Log-likelihood : -168354.5846 
+  14 Log-likelihood : -167262.0319 
+  15 Log-likelihood : -166941.5051 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    16 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207926.3125 
+   2 Log-likelihood : -207772.8045 
+   3 Log-likelihood : -205253.9679 
+   4 Log-likelihood : -191759.1891 
+   5 Log-likelihood : -182361.7401 
+   6 Log-likelihood : -179312.2489 
+   7 Log-likelihood : -176724.4050 
+   8 Log-likelihood : -173719.6377 
+   9 Log-likelihood : -171021.8570 
+  10 Log-likelihood : -169278.2516 
+  11 Log-likelihood : -168499.0933 
+  12 Log-likelihood : -168238.2200 
+  13 Log-likelihood : -168103.8365 
+  14 Log-likelihood : -168061.6131 
+  15 Log-likelihood : -168052.8472 
+  16 Log-likelihood : -168046.0801 
+  17 Log-likelihood : -168040.7561 
+  18 Log-likelihood : -168032.5563 
+  19 Log-likelihood : -168018.0901 
+  20 Log-likelihood : -167991.2484 
+*** Removing 1 component(s) ***
+  21 Log-likelihood : -168988.8755 
+  22 Log-likelihood : -168960.8534 
+  23 Log-likelihood : -168959.2918 
+  24 Log-likelihood : -168957.8765 
+  25 Log-likelihood : -168956.6620 
+  26 Log-likelihood : -168955.6747 
+  27 Log-likelihood : -168954.8986 
+  28 Log-likelihood : -168954.3045 
+  29 Log-likelihood : -168953.8593 
+  30 Log-likelihood : -168953.5292 
+  31 Log-likelihood : -168953.2860 
+  32 Log-likelihood : -168953.1070 
+  33 Log-likelihood : -168952.9764 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207922.6693 
+   2 Log-likelihood : -207732.9367 
+   3 Log-likelihood : -205202.5240 
+   4 Log-likelihood : -193591.5209 
+   5 Log-likelihood : -183918.0468 
+   6 Log-likelihood : -180126.5924 
+   7 Log-likelihood : -177093.9726 
+*** Removing 1 component(s) ***
+   8 Log-likelihood : -175231.6849 
+   9 Log-likelihood : -173571.1108 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    10 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207906.6959 
+   2 Log-likelihood : -207478.5050 
+   3 Log-likelihood : -203069.1047 
+   4 Log-likelihood : -189357.9166 
+   5 Log-likelihood : -181570.5165 
+   6 Log-likelihood : -178417.7012 
+   7 Log-likelihood : -176351.3857 
+   8 Log-likelihood : -174993.4287 
+   9 Log-likelihood : -174297.1817 
+  10 Log-likelihood : -173968.2464 
+  11 Log-likelihood : -173764.2263 
+  12 Log-likelihood : -173576.3405 
+  13 Log-likelihood : -173375.6654 
+  14 Log-likelihood : -173182.5988 
+  15 Log-likelihood : -173036.0491 
+  16 Log-likelihood : -172939.6278 
+  17 Log-likelihood : -172872.7637 
+*** Removing 1 component(s) ***
+  18 Log-likelihood : -173732.2274 
+  19 Log-likelihood : -173657.6890 
+  20 Log-likelihood : -173627.6611 
+  21 Log-likelihood : -173618.0007 
+  22 Log-likelihood : -173611.4910 
+  23 Log-likelihood : -173607.0057 
+  24 Log-likelihood : -173604.8298 
+  25 Log-likelihood : -173603.1230 
+  26 Log-likelihood : -173601.6418 
+  27 Log-likelihood : -173600.3428 
+  28 Log-likelihood : -173599.2055 
+  29 Log-likelihood : -173598.2156 
+  30 Log-likelihood : -173597.3608 
+  31 Log-likelihood : -173596.6292 
+  32 Log-likelihood : -173596.0088 
+  33 Log-likelihood : -173595.4869 
+  34 Log-likelihood : -173595.0517 
+  35 Log-likelihood : -173594.6949 
+  36 Log-likelihood : -173594.3938 
+  37 Log-likelihood : -173594.1551 
+  38 Log-likelihood : -173593.9562 
+  39 Log-likelihood : -173593.7892 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207919.4382 
+   2 Log-likelihood : -207687.5449 
+   3 Log-likelihood : -204076.0532 
+   4 Log-likelihood : -188513.5412 
+   5 Log-likelihood : -181454.5266 
+   6 Log-likelihood : -178350.2464 
+   7 Log-likelihood : -175698.3660 
+   8 Log-likelihood : -173806.3276 
+   9 Log-likelihood : -172068.2252 
+  10 Log-likelihood : -170178.7295 
+  11 Log-likelihood : -168733.8310 
+  12 Log-likelihood : -167964.3077 
+  13 Log-likelihood : -167300.8343 
+  14 Log-likelihood : -166970.6070 
+  15 Log-likelihood : -166936.4087 
+  16 Log-likelihood : -166934.4421 
+  17 Log-likelihood : -166931.3877 
+  18 Log-likelihood : -166925.4347 
+  19 Log-likelihood : -166924.6872 
+  20 Log-likelihood : -166924.4075 
+  21 Log-likelihood : -166924.2260 
+  22 Log-likelihood : -166924.1104 
+converged
+
+=== Iter 14 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207906.3029 
+   2 Log-likelihood : -207418.9619 
+   3 Log-likelihood : -199747.1105 
+   4 Log-likelihood : -184459.0418 
+   5 Log-likelihood : -181823.1845 
+   6 Log-likelihood : -178898.3421 
+   7 Log-likelihood : -176014.0947 
+   8 Log-likelihood : -173995.7874 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207894.4918 
+   2 Log-likelihood : -207171.3205 
+   3 Log-likelihood : -198268.3141 
+   4 Log-likelihood : -184019.8425 
+   5 Log-likelihood : -180777.7106 
+   6 Log-likelihood : -177327.6954 
+   7 Log-likelihood : -173681.9809 
+   8 Log-likelihood : -171304.9613 
+   9 Log-likelihood : -170309.2649 
+  10 Log-likelihood : -169725.5443 
+  11 Log-likelihood : -169015.0527 
+  12 Log-likelihood : -168503.1483 
+  13 Log-likelihood : -168304.3123 
+  14 Log-likelihood : -168171.6548 
+  15 Log-likelihood : -168109.2359 
+  16 Log-likelihood : -168084.9065 
+  17 Log-likelihood : -168063.5206 
+  18 Log-likelihood : -168045.8978 
+  19 Log-likelihood : -168034.0569 
+  20 Log-likelihood : -168019.3029 
+  21 Log-likelihood : -167994.6944 
+  22 Log-likelihood : -167968.3497 
+  23 Log-likelihood : -167947.8198 
+  24 Log-likelihood : -167941.8855 
+  25 Log-likelihood : -167940.2586 
+  26 Log-likelihood : -167938.8868 
+  27 Log-likelihood : -167937.6120 
+  28 Log-likelihood : -167936.4230 
+  29 Log-likelihood : -167935.3380 
+  30 Log-likelihood : -167934.3188 
+  31 Log-likelihood : -167933.4069 
+  32 Log-likelihood : -167932.5217 
+  33 Log-likelihood : -167931.7041 
+  34 Log-likelihood : -167930.9260 
+  35 Log-likelihood : -167930.1876 
+  36 Log-likelihood : -167929.5057 
+  37 Log-likelihood : -167928.8924 
+  38 Log-likelihood : -167928.3500 
+  39 Log-likelihood : -167927.8718 
+  40 Log-likelihood : -167927.4500 
+  41 Log-likelihood : -167927.0761 
+  42 Log-likelihood : -167926.7440 
+  43 Log-likelihood : -167926.4580 
+  44 Log-likelihood : -167926.2001 
+  45 Log-likelihood : -167925.9829 
+  46 Log-likelihood : -167925.7772 
+  47 Log-likelihood : -167925.6146 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207924.3072 
+   2 Log-likelihood : -207801.9731 
+   3 Log-likelihood : -205821.7025 
+   4 Log-likelihood : -192565.2241 
+   5 Log-likelihood : -182295.3039 
+   6 Log-likelihood : -178378.7771 
+   7 Log-likelihood : -174576.3314 
+   8 Log-likelihood : -171800.7871 
+   9 Log-likelihood : -170143.9319 
+  10 Log-likelihood : -169519.4822 
+  11 Log-likelihood : -169334.4953 
+  12 Log-likelihood : -169265.9219 
+  13 Log-likelihood : -169244.6826 
+  14 Log-likelihood : -169238.4231 
+  15 Log-likelihood : -169235.5746 
+  16 Log-likelihood : -169233.9549 
+  17 Log-likelihood : -169232.7782 
+  18 Log-likelihood : -169231.8250 
+  19 Log-likelihood : -169231.0287 
+  20 Log-likelihood : -169230.3324 
+  21 Log-likelihood : -169229.7059 
+  22 Log-likelihood : -169229.1513 
+  23 Log-likelihood : -169228.6536 
+  24 Log-likelihood : -169228.2060 
+  25 Log-likelihood : -169227.8043 
+  26 Log-likelihood : -169227.4450 
+  27 Log-likelihood : -169227.1224 
+  28 Log-likelihood : -169226.8326 
+  29 Log-likelihood : -169226.5719 
+  30 Log-likelihood : -169226.3369 
+  31 Log-likelihood : -169226.1248 
+  32 Log-likelihood : -169225.9322 
+  33 Log-likelihood : -169225.7576 
+  34 Log-likelihood : -169225.6028 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207879.9547 
+   2 Log-likelihood : -206452.0703 
+   3 Log-likelihood : -192146.0982 
+   4 Log-likelihood : -184222.6913 
+   5 Log-likelihood : -182892.1312 
+   6 Log-likelihood : -180574.8212 
+   7 Log-likelihood : -177291.6813 
+   8 Log-likelihood : -173115.9699 
+   9 Log-likelihood : -170172.0910 
+  10 Log-likelihood : -168684.6486 
+  11 Log-likelihood : -168075.9000 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    12 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207916.1052 
+   2 Log-likelihood : -207677.3121 
+   3 Log-likelihood : -205054.9726 
+   4 Log-likelihood : -193356.3027 
+   5 Log-likelihood : -181825.3050 
+   6 Log-likelihood : -178816.8258 
+   7 Log-likelihood : -176488.0502 
+   8 Log-likelihood : -174630.9927 
+   9 Log-likelihood : -173104.4371 
+  10 Log-likelihood : -171657.5969 
+  11 Log-likelihood : -170460.2082 
+  12 Log-likelihood : -169957.7570 
+  13 Log-likelihood : -169782.0460 
+  14 Log-likelihood : -169622.0631 
+  15 Log-likelihood : -169357.0265 
+  16 Log-likelihood : -168845.5811 
+  17 Log-likelihood : -168083.3885 
+  18 Log-likelihood : -167463.1515 
+  19 Log-likelihood : -167012.2312 
+  20 Log-likelihood : -166602.5238 
+  21 Log-likelihood : -166354.2177 
+  22 Log-likelihood : -166202.5323 
+  23 Log-likelihood : -166188.5051 
+  24 Log-likelihood : -166186.4070 
+  25 Log-likelihood : -166183.9460 
+  26 Log-likelihood : -166180.9990 
+  27 Log-likelihood : -166177.5815 
+  28 Log-likelihood : -166173.7751 
+  29 Log-likelihood : -166169.7355 
+  30 Log-likelihood : -166165.6850 
+  31 Log-likelihood : -166161.8707 
+  32 Log-likelihood : -166158.5042 
+  33 Log-likelihood : -166155.7116 
+  34 Log-likelihood : -166153.5217 
+  35 Log-likelihood : -166151.8856 
+  36 Log-likelihood : -166150.7150 
+  37 Log-likelihood : -166149.9073 
+  38 Log-likelihood : -166149.3674 
+  39 Log-likelihood : -166149.0167 
+  40 Log-likelihood : -166148.7949 
+  41 Log-likelihood : -166148.6525 
+converged
+
+=== Iter 15 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207926.6753 
+   2 Log-likelihood : -207746.9482 
+   3 Log-likelihood : -204689.5138 
+   4 Log-likelihood : -190826.4248 
+   5 Log-likelihood : -183754.8253 
+   6 Log-likelihood : -180815.2232 
+   7 Log-likelihood : -177556.4045 
+   8 Log-likelihood : -174235.8313 
+   9 Log-likelihood : -171269.3810 
+  10 Log-likelihood : -169329.6123 
+  11 Log-likelihood : -168810.0796 
+  12 Log-likelihood : -168743.9021 
+  13 Log-likelihood : -168693.9490 
+  14 Log-likelihood : -168626.0557 
+  15 Log-likelihood : -168531.9284 
+  16 Log-likelihood : -168395.4950 
+  17 Log-likelihood : -168230.7303 
+  18 Log-likelihood : -168062.6106 
+  19 Log-likelihood : -167983.3619 
+  20 Log-likelihood : -167969.0836 
+  21 Log-likelihood : -167951.7204 
+  22 Log-likelihood : -167911.4666 
+  23 Log-likelihood : -167860.6907 
+  24 Log-likelihood : -167827.8453 
+  25 Log-likelihood : -167794.2999 
+  26 Log-likelihood : -167750.1579 
+  27 Log-likelihood : -167706.9836 
+  28 Log-likelihood : -167660.9836 
+  29 Log-likelihood : -167640.4022 
+  30 Log-likelihood : -167631.9438 
+  31 Log-likelihood : -167629.4444 
+  32 Log-likelihood : -167627.6611 
+  33 Log-likelihood : -167625.5191 
+  34 Log-likelihood : -167622.4384 
+  35 Log-likelihood : -167617.6321 
+  36 Log-likelihood : -167611.3615 
+  37 Log-likelihood : -167605.0603 
+  38 Log-likelihood : -167600.1168 
+  39 Log-likelihood : -167596.7202 
+  40 Log-likelihood : -167594.3041 
+  41 Log-likelihood : -167592.4110 
+  42 Log-likelihood : -167590.8627 
+  43 Log-likelihood : -167589.5928 
+  44 Log-likelihood : -167588.5602 
+  45 Log-likelihood : -167587.7298 
+  46 Log-likelihood : -167587.0692 
+  47 Log-likelihood : -167586.5490 
+  48 Log-likelihood : -167586.1604 
+  49 Log-likelihood : -167585.8439 
+  50 Log-likelihood : -167585.5993 
+  51 Log-likelihood : -167585.4028 
+  52 Log-likelihood : -167585.2622 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207918.5007 
+   2 Log-likelihood : -207666.0819 
+   3 Log-likelihood : -204122.1797 
+   4 Log-likelihood : -190276.2825 
+   5 Log-likelihood : -182194.0780 
+   6 Log-likelihood : -178610.6002 
+   7 Log-likelihood : -175341.2259 
+   8 Log-likelihood : -172623.9929 
+   9 Log-likelihood : -171166.4977 
+  10 Log-likelihood : -170477.7346 
+  11 Log-likelihood : -169952.5813 
+  12 Log-likelihood : -169533.2509 
+  13 Log-likelihood : -169006.7883 
+  14 Log-likelihood : -168323.4534 
+*** Removing 1 component(s) ***
+  15 Log-likelihood : -168891.3362 
+  16 Log-likelihood : -168724.2477 
+  17 Log-likelihood : -168679.5779 
+  18 Log-likelihood : -168644.3072 
+  19 Log-likelihood : -168581.9987 
+  20 Log-likelihood : -168549.4203 
+  21 Log-likelihood : -168513.3707 
+  22 Log-likelihood : -168477.9467 
+  23 Log-likelihood : -168467.0255 
+  24 Log-likelihood : -168466.4556 
+  25 Log-likelihood : -168466.3238 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207929.9009 
+   2 Log-likelihood : -207854.8370 
+   3 Log-likelihood : -206809.0687 
+   4 Log-likelihood : -198417.6336 
+   5 Log-likelihood : -184592.2777 
+   6 Log-likelihood : -180184.8826 
+   7 Log-likelihood : -176969.6205 
+   8 Log-likelihood : -174031.0370 
+   9 Log-likelihood : -172057.8124 
+  10 Log-likelihood : -170612.3211 
+  11 Log-likelihood : -169735.7253 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    12 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207915.0336 
+   2 Log-likelihood : -207516.7266 
+   3 Log-likelihood : -202034.4344 
+   4 Log-likelihood : -187263.5403 
+   5 Log-likelihood : -181707.6094 
+   6 Log-likelihood : -179823.1324 
+   7 Log-likelihood : -178040.9584 
+   8 Log-likelihood : -175958.3312 
+   9 Log-likelihood : -174101.8967 
+  10 Log-likelihood : -172642.5475 
+  11 Log-likelihood : -171557.0451 
+  12 Log-likelihood : -170582.0669 
+  13 Log-likelihood : -169558.9441 
+  14 Log-likelihood : -168718.7724 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    15 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207918.7913 
+   2 Log-likelihood : -207586.1246 
+   3 Log-likelihood : -200921.1747 
+   4 Log-likelihood : -185153.1496 
+   5 Log-likelihood : -183103.0998 
+   6 Log-likelihood : -180307.0720 
+   7 Log-likelihood : -176124.5307 
+   8 Log-likelihood : -172472.6776 
+   9 Log-likelihood : -170179.2284 
+  10 Log-likelihood : -169063.5647 
+  11 Log-likelihood : -168474.8024 
+  12 Log-likelihood : -168085.7486 
+  13 Log-likelihood : -167839.3829 
+  14 Log-likelihood : -167585.8898 
+  15 Log-likelihood : -167335.5226 
+*** Removing 1 component(s) ***
+  16 Log-likelihood : -168689.7702 
+  17 Log-likelihood : -168262.3668 
+  18 Log-likelihood : -168076.6822 
+  19 Log-likelihood : -168037.4892 
+  20 Log-likelihood : -168031.0297 
+  21 Log-likelihood : -168024.4052 
+  22 Log-likelihood : -168013.5485 
+  23 Log-likelihood : -168000.4271 
+  24 Log-likelihood : -167992.3430 
+  25 Log-likelihood : -167986.5860 
+  26 Log-likelihood : -167978.7129 
+  27 Log-likelihood : -167969.1268 
+  28 Log-likelihood : -167964.3529 
+  29 Log-likelihood : -167963.1108 
+  30 Log-likelihood : -167962.3309 
+  31 Log-likelihood : -167961.7380 
+  32 Log-likelihood : -167961.2619 
+  33 Log-likelihood : -167960.8650 
+  34 Log-likelihood : -167960.5162 
+  35 Log-likelihood : -167960.1866 
+  36 Log-likelihood : -167959.8424 
+  37 Log-likelihood : -167959.4361 
+  38 Log-likelihood : -167958.8870 
+  39 Log-likelihood : -167958.0486 
+  40 Log-likelihood : -167956.6793 
+  41 Log-likelihood : -167954.5856 
+  42 Log-likelihood : -167952.2541 
+  43 Log-likelihood : -167950.8889 
+  44 Log-likelihood : -167950.5401 
+  45 Log-likelihood : -167950.4807 
+converged
+
+=== Iter 16 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207921.1450 
+   2 Log-likelihood : -207645.4157 
+   3 Log-likelihood : -202634.9002 
+   4 Log-likelihood : -186062.5798 
+   5 Log-likelihood : -181979.0508 
+   6 Log-likelihood : -179204.0833 
+   7 Log-likelihood : -176206.6751 
+   8 Log-likelihood : -173438.4863 
+   9 Log-likelihood : -171735.0244 
+  10 Log-likelihood : -170661.6729 
+  11 Log-likelihood : -170045.2765 
+  12 Log-likelihood : -169805.4713 
+  13 Log-likelihood : -169656.3263 
+  14 Log-likelihood : -169543.4964 
+  15 Log-likelihood : -169474.3993 
+  16 Log-likelihood : -169449.2548 
+  17 Log-likelihood : -169434.6227 
+  18 Log-likelihood : -169417.2098 
+  19 Log-likelihood : -169393.7658 
+  20 Log-likelihood : -169359.5443 
+  21 Log-likelihood : -169308.3294 
+  22 Log-likelihood : -169241.9531 
+  23 Log-likelihood : -169181.8521 
+  24 Log-likelihood : -169147.3779 
+  25 Log-likelihood : -169132.6565 
+  26 Log-likelihood : -169126.1515 
+  27 Log-likelihood : -169122.6562 
+  28 Log-likelihood : -169120.4767 
+  29 Log-likelihood : -169119.0014 
+  30 Log-likelihood : -169117.9497 
+  31 Log-likelihood : -169117.1695 
+  32 Log-likelihood : -169116.5715 
+  33 Log-likelihood : -169116.1004 
+  34 Log-likelihood : -169115.7211 
+  35 Log-likelihood : -169115.4102 
+  36 Log-likelihood : -169115.1517 
+  37 Log-likelihood : -169114.9347 
+  38 Log-likelihood : -169114.7505 
+  39 Log-likelihood : -169114.5932 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207920.8564 
+   2 Log-likelihood : -207658.8942 
+   3 Log-likelihood : -203973.8259 
+   4 Log-likelihood : -189015.7648 
+   5 Log-likelihood : -181422.4451 
+   6 Log-likelihood : -178662.6962 
+   7 Log-likelihood : -176131.0224 
+   8 Log-likelihood : -173883.7555 
+   9 Log-likelihood : -172008.2313 
+  10 Log-likelihood : -170327.9554 
+  11 Log-likelihood : -168784.1431 
+  12 Log-likelihood : -167791.8980 
+  13 Log-likelihood : -167435.8706 
+  14 Log-likelihood : -167389.1397 
+  15 Log-likelihood : -167375.8359 
+  16 Log-likelihood : -167361.9604 
+  17 Log-likelihood : -167346.3519 
+  18 Log-likelihood : -167343.2494 
+  19 Log-likelihood : -167342.9953 
+  20 Log-likelihood : -167342.8138 
+  21 Log-likelihood : -167342.6727 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207906.0325 
+   2 Log-likelihood : -207327.0708 
+   3 Log-likelihood : -199378.0787 
+   4 Log-likelihood : -184875.9481 
+   5 Log-likelihood : -181238.8038 
+   6 Log-likelihood : -179120.5818 
+   7 Log-likelihood : -176721.9913 
+   8 Log-likelihood : -174106.7478 
+   9 Log-likelihood : -172273.5362 
+  10 Log-likelihood : -171443.1735 
+  11 Log-likelihood : -170841.4957 
+  12 Log-likelihood : -170362.2972 
+  13 Log-likelihood : -170159.5363 
+  14 Log-likelihood : -170092.8191 
+  15 Log-likelihood : -170051.1324 
+  16 Log-likelihood : -170019.7603 
+  17 Log-likelihood : -169993.2463 
+  18 Log-likelihood : -169965.9275 
+  19 Log-likelihood : -169934.5279 
+  20 Log-likelihood : -169899.3243 
+  21 Log-likelihood : -169863.1747 
+  22 Log-likelihood : -169826.1336 
+  23 Log-likelihood : -169782.1046 
+  24 Log-likelihood : -169744.1168 
+  25 Log-likelihood : -169732.1665 
+  26 Log-likelihood : -169729.4960 
+  27 Log-likelihood : -169727.6102 
+  28 Log-likelihood : -169725.9654 
+  29 Log-likelihood : -169724.5534 
+  30 Log-likelihood : -169723.2754 
+  31 Log-likelihood : -169722.1574 
+  32 Log-likelihood : -169721.1115 
+  33 Log-likelihood : -169720.1942 
+  34 Log-likelihood : -169719.3692 
+  35 Log-likelihood : -169718.5944 
+  36 Log-likelihood : -169717.8527 
+  37 Log-likelihood : -169717.1919 
+  38 Log-likelihood : -169716.5968 
+  39 Log-likelihood : -169716.0233 
+  40 Log-likelihood : -169715.5083 
+  41 Log-likelihood : -169715.0300 
+  42 Log-likelihood : -169714.5795 
+  43 Log-likelihood : -169714.1385 
+  44 Log-likelihood : -169713.7790 
+  45 Log-likelihood : -169713.3824 
+  46 Log-likelihood : -169713.0446 
+  47 Log-likelihood : -169712.7069 
+  48 Log-likelihood : -169712.3999 
+  49 Log-likelihood : -169712.1161 
+  50 Log-likelihood : -169711.7517 
+  51 Log-likelihood : -169710.9549 
+  52 Log-likelihood : -169709.4595 
+  53 Log-likelihood : -169708.5478 
+  54 Log-likelihood : -169708.0607 
+  55 Log-likelihood : -169707.6866 
+  56 Log-likelihood : -169707.3087 
+  57 Log-likelihood : -169706.9506 
+  58 Log-likelihood : -169706.5993 
+  59 Log-likelihood : -169706.2537 
+  60 Log-likelihood : -169705.9134 
+  61 Log-likelihood : -169705.5768 
+  62 Log-likelihood : -169705.2449 
+  63 Log-likelihood : -169704.9192 
+  64 Log-likelihood : -169704.6017 
+  65 Log-likelihood : -169704.2929 
+  66 Log-likelihood : -169703.9965 
+  67 Log-likelihood : -169703.7172 
+  68 Log-likelihood : -169703.4571 
+  69 Log-likelihood : -169703.2183 
+  70 Log-likelihood : -169703.0032 
+  71 Log-likelihood : -169702.8133 
+  72 Log-likelihood : -169702.6484 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207924.4580 
+   2 Log-likelihood : -207679.2269 
+   3 Log-likelihood : -203924.0481 
+   4 Log-likelihood : -188238.9814 
+   5 Log-likelihood : -182033.3029 
+   6 Log-likelihood : -179637.0820 
+   7 Log-likelihood : -177519.3366 
+   8 Log-likelihood : -175631.5512 
+   9 Log-likelihood : -174041.6028 
+  10 Log-likelihood : -172736.9582 
+  11 Log-likelihood : -171879.8791 
+  12 Log-likelihood : -171233.3237 
+  13 Log-likelihood : -170635.6998 
+  14 Log-likelihood : -169899.1040 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    15 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207892.3856 
+   2 Log-likelihood : -207069.9926 
+   3 Log-likelihood : -197217.2219 
+   4 Log-likelihood : -183668.3258 
+   5 Log-likelihood : -181222.0741 
+   6 Log-likelihood : -179033.6562 
+   7 Log-likelihood : -176789.7815 
+   8 Log-likelihood : -174826.8409 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+
+=== Iter 17 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207918.8514 
+   2 Log-likelihood : -207551.9357 
+   3 Log-likelihood : -200587.1316 
+   4 Log-likelihood : -185086.6819 
+   5 Log-likelihood : -182844.3603 
+   6 Log-likelihood : -180055.5430 
+   7 Log-likelihood : -176730.1813 
+   8 Log-likelihood : -173434.1802 
+   9 Log-likelihood : -170774.4206 
+  10 Log-likelihood : -169433.2631 
+  11 Log-likelihood : -168586.1413 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    12 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207916.5074 
+   2 Log-likelihood : -207660.4787 
+   3 Log-likelihood : -204222.6141 
+   4 Log-likelihood : -190774.2498 
+   5 Log-likelihood : -182406.7304 
+   6 Log-likelihood : -179051.4890 
+   7 Log-likelihood : -176784.1448 
+   8 Log-likelihood : -174551.3345 
+   9 Log-likelihood : -172537.0344 
+  10 Log-likelihood : -171293.5840 
+  11 Log-likelihood : -170659.8648 
+  12 Log-likelihood : -170359.4222 
+  13 Log-likelihood : -170106.5592 
+*** Removing 1 component(s) ***
+  14 Log-likelihood : -170531.8521 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    15 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207905.8110 
+   2 Log-likelihood : -207270.7540 
+   3 Log-likelihood : -198500.8956 
+   4 Log-likelihood : -184532.5540 
+   5 Log-likelihood : -181365.1988 
+   6 Log-likelihood : -178330.8216 
+   7 Log-likelihood : -175076.1609 
+   8 Log-likelihood : -172599.2716 
+   9 Log-likelihood : -171325.0826 
+  10 Log-likelihood : -170700.0456 
+  11 Log-likelihood : -170024.5507 
+  12 Log-likelihood : -169318.9611 
+  13 Log-likelihood : -168762.1639 
+  14 Log-likelihood : -168425.6759 
+  15 Log-likelihood : -168320.8502 
+  16 Log-likelihood : -168298.2584 
+  17 Log-likelihood : -168286.5139 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    18 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207921.9700 
+   2 Log-likelihood : -207690.6422 
+   3 Log-likelihood : -203841.5018 
+   4 Log-likelihood : -188364.6197 
+   5 Log-likelihood : -182169.3409 
+   6 Log-likelihood : -179824.6804 
+   7 Log-likelihood : -177674.9327 
+   8 Log-likelihood : -175245.8526 
+   9 Log-likelihood : -172490.3600 
+  10 Log-likelihood : -170106.1644 
+  11 Log-likelihood : -168447.9235 
+  12 Log-likelihood : -167679.9012 
+  13 Log-likelihood : -167499.9682 
+  14 Log-likelihood : -167460.3239 
+  15 Log-likelihood : -167448.4038 
+  16 Log-likelihood : -167442.9396 
+  17 Log-likelihood : -167438.9352 
+  18 Log-likelihood : -167431.6608 
+  19 Log-likelihood : -167428.0725 
+  20 Log-likelihood : -167427.2902 
+  21 Log-likelihood : -167426.8110 
+  22 Log-likelihood : -167426.4693 
+  23 Log-likelihood : -167426.2184 
+  24 Log-likelihood : -167426.0307 
+  25 Log-likelihood : -167425.8885 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207909.3350 
+   2 Log-likelihood : -207431.4003 
+   3 Log-likelihood : -200789.1928 
+   4 Log-likelihood : -185500.7897 
+   5 Log-likelihood : -181088.6476 
+   6 Log-likelihood : -178044.7217 
+   7 Log-likelihood : -175023.4480 
+   8 Log-likelihood : -172199.4828 
+   9 Log-likelihood : -170268.3418 
+  10 Log-likelihood : -169466.7417 
+  11 Log-likelihood : -169193.3199 
+  12 Log-likelihood : -168960.8316 
+  13 Log-likelihood : -168659.8045 
+  14 Log-likelihood : -168308.2887 
+  15 Log-likelihood : -168036.0789 
+  16 Log-likelihood : -167842.1735 
+  17 Log-likelihood : -167620.2761 
+  18 Log-likelihood : -167415.7859 
+  19 Log-likelihood : -167328.3631 
+  20 Log-likelihood : -167317.0493 
+  21 Log-likelihood : -167313.5723 
+  22 Log-likelihood : -167309.3351 
+  23 Log-likelihood : -167305.0479 
+  24 Log-likelihood : -167302.1802 
+  25 Log-likelihood : -167300.6213 
+  26 Log-likelihood : -167299.6713 
+  27 Log-likelihood : -167298.9805 
+  28 Log-likelihood : -167298.4454 
+  29 Log-likelihood : -167298.0727 
+  30 Log-likelihood : -167297.7001 
+  31 Log-likelihood : -167297.4442 
+  32 Log-likelihood : -167297.2454 
+  33 Log-likelihood : -167297.0910 
+converged
+
+=== Iter 18 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207924.3651 
+   2 Log-likelihood : -207712.2504 
+   3 Log-likelihood : -204192.7795 
+   4 Log-likelihood : -190167.9510 
+   5 Log-likelihood : -183810.3088 
+   6 Log-likelihood : -180705.9848 
+   7 Log-likelihood : -177387.8503 
+   8 Log-likelihood : -175159.3411 
+   9 Log-likelihood : -174058.0814 
+  10 Log-likelihood : -173264.9560 
+*** Removing 1 component(s) ***
+  11 Log-likelihood : -173460.2206 
+  12 Log-likelihood : -172780.9984 
+  13 Log-likelihood : -172056.0070 
+  14 Log-likelihood : -171043.5453 
+  15 Log-likelihood : -170200.0594 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    16 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207910.8415 
+   2 Log-likelihood : -207493.0540 
+   3 Log-likelihood : -202694.4995 
+   4 Log-likelihood : -189243.9386 
+   5 Log-likelihood : -181739.1815 
+   6 Log-likelihood : -178739.4190 
+   7 Log-likelihood : -176429.9867 
+   8 Log-likelihood : -174189.6194 
+   9 Log-likelihood : -172058.0849 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    10 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207924.2974 
+   2 Log-likelihood : -207705.2618 
+   3 Log-likelihood : -204001.2172 
+   4 Log-likelihood : -189528.4129 
+   5 Log-likelihood : -183546.4028 
+   6 Log-likelihood : -180730.2738 
+   7 Log-likelihood : -177681.5439 
+   8 Log-likelihood : -174333.8889 
+   9 Log-likelihood : -172094.4469 
+  10 Log-likelihood : -171350.1777 
+  11 Log-likelihood : -170955.3146 
+  12 Log-likelihood : -170463.5839 
+  13 Log-likelihood : -170127.7222 
+  14 Log-likelihood : -170017.3210 
+  15 Log-likelihood : -169944.4315 
+  16 Log-likelihood : -169884.6818 
+  17 Log-likelihood : -169852.6502 
+  18 Log-likelihood : -169838.3793 
+  19 Log-likelihood : -169831.7954 
+  20 Log-likelihood : -169826.3445 
+  21 Log-likelihood : -169820.7177 
+  22 Log-likelihood : -169817.0221 
+  23 Log-likelihood : -169814.9400 
+  24 Log-likelihood : -169813.3915 
+  25 Log-likelihood : -169811.9880 
+  26 Log-likelihood : -169810.5077 
+  27 Log-likelihood : -169808.5101 
+  28 Log-likelihood : -169804.9268 
+  29 Log-likelihood : -169798.9058 
+  30 Log-likelihood : -169792.4767 
+  31 Log-likelihood : -169786.6956 
+  32 Log-likelihood : -169779.4108 
+  33 Log-likelihood : -169761.2711 
+  34 Log-likelihood : -169711.7470 
+  35 Log-likelihood : -169656.8930 
+  36 Log-likelihood : -169616.5150 
+  37 Log-likelihood : -169575.3112 
+  38 Log-likelihood : -169544.7380 
+  39 Log-likelihood : -169531.4994 
+  40 Log-likelihood : -169526.1133 
+  41 Log-likelihood : -169523.2945 
+  42 Log-likelihood : -169521.5318 
+  43 Log-likelihood : -169520.2277 
+  44 Log-likelihood : -169519.2499 
+  45 Log-likelihood : -169518.2482 
+  46 Log-likelihood : -169517.2518 
+  47 Log-likelihood : -169516.1273 
+  48 Log-likelihood : -169514.8149 
+  49 Log-likelihood : -169513.2843 
+  50 Log-likelihood : -169511.5396 
+  51 Log-likelihood : -169509.6170 
+  52 Log-likelihood : -169507.5660 
+  53 Log-likelihood : -169505.4487 
+  54 Log-likelihood : -169503.3141 
+  55 Log-likelihood : -169501.1951 
+  56 Log-likelihood : -169499.1072 
+  57 Log-likelihood : -169497.0651 
+  58 Log-likelihood : -169495.0877 
+  59 Log-likelihood : -169493.1700 
+  60 Log-likelihood : -169491.3429 
+  61 Log-likelihood : -169489.6248 
+  62 Log-likelihood : -169488.0317 
+  63 Log-likelihood : -169486.5766 
+  64 Log-likelihood : -169485.2667 
+  65 Log-likelihood : -169484.1021 
+  66 Log-likelihood : -169483.0774 
+  67 Log-likelihood : -169482.1846 
+  68 Log-likelihood : -169481.4188 
+  69 Log-likelihood : -169480.7457 
+  70 Log-likelihood : -169480.1690 
+  71 Log-likelihood : -169479.6774 
+  72 Log-likelihood : -169479.2561 
+  73 Log-likelihood : -169478.8952 
+  74 Log-likelihood : -169478.5857 
+  75 Log-likelihood : -169478.3198 
+  76 Log-likelihood : -169478.0912 
+  77 Log-likelihood : -169477.8944 
+  78 Log-likelihood : -169477.7245 
+  79 Log-likelihood : -169477.5781 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207897.5262 
+   2 Log-likelihood : -207127.0621 
+   3 Log-likelihood : -197942.8013 
+   4 Log-likelihood : -184519.8504 
+   5 Log-likelihood : -180787.0120 
+   6 Log-likelihood : -177552.4582 
+   7 Log-likelihood : -174010.8728 
+   8 Log-likelihood : -171100.5199 
+   9 Log-likelihood : -169474.1454 
+  10 Log-likelihood : -168590.8939 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    11 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207912.8318 
+   2 Log-likelihood : -207601.7046 
+   3 Log-likelihood : -202594.3515 
+   4 Log-likelihood : -186232.5243 
+   5 Log-likelihood : -181626.3685 
+   6 Log-likelihood : -178688.4554 
+   7 Log-likelihood : -175811.0146 
+   8 Log-likelihood : -173223.5331 
+   9 Log-likelihood : -171995.7848 
+  10 Log-likelihood : -171571.3341 
+  11 Log-likelihood : -171288.3711 
+  12 Log-likelihood : -171010.8670 
+  13 Log-likelihood : -170759.5652 
+  14 Log-likelihood : -170609.2434 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    15 Log-likelihood: NA
+
+=== Iter 19 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207909.2437 
+   2 Log-likelihood : -207421.6816 
+   3 Log-likelihood : -201459.7668 
+   4 Log-likelihood : -187556.0861 
+   5 Log-likelihood : -182796.7843 
+   6 Log-likelihood : -179735.1194 
+   7 Log-likelihood : -176458.9357 
+   8 Log-likelihood : -173953.8243 
+   9 Log-likelihood : -172361.2859 
+*** Removing 1 component(s) ***
+  10 Log-likelihood : -172259.3720 
+  11 Log-likelihood : -171726.0895 
+  12 Log-likelihood : -171447.1391 
+  13 Log-likelihood : -171212.5143 
+  14 Log-likelihood : -170997.2902 
+  15 Log-likelihood : -170747.6864 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    16 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207925.1036 
+   2 Log-likelihood : -207733.1876 
+   3 Log-likelihood : -204506.2172 
+   4 Log-likelihood : -190143.3474 
+   5 Log-likelihood : -182432.7466 
+   6 Log-likelihood : -179208.7383 
+   7 Log-likelihood : -176849.7621 
+   8 Log-likelihood : -174628.9625 
+   9 Log-likelihood : -172777.4751 
+  10 Log-likelihood : -171384.7903 
+  11 Log-likelihood : -170277.8997 
+  12 Log-likelihood : -169682.0292 
+  13 Log-likelihood : -169552.8542 
+  14 Log-likelihood : -169511.7701 
+  15 Log-likelihood : -169449.5367 
+  16 Log-likelihood : -169307.6996 
+  17 Log-likelihood : -169017.6265 
+  18 Log-likelihood : -168558.8887 
+  19 Log-likelihood : -168032.8018 
+  20 Log-likelihood : -167742.3640 
+  21 Log-likelihood : -167666.5900 
+  22 Log-likelihood : -167569.0360 
+  23 Log-likelihood : -167523.2332 
+  24 Log-likelihood : -167511.0357 
+  25 Log-likelihood : -167500.7434 
+  26 Log-likelihood : -167492.5759 
+  27 Log-likelihood : -167486.6723 
+  28 Log-likelihood : -167482.5748 
+  29 Log-likelihood : -167479.7922 
+  30 Log-likelihood : -167477.9224 
+  31 Log-likelihood : -167476.7074 
+  32 Log-likelihood : -167475.9281 
+  33 Log-likelihood : -167475.4426 
+  34 Log-likelihood : -167475.1331 
+  35 Log-likelihood : -167474.9489 
+  36 Log-likelihood : -167474.8284 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207921.4604 
+   2 Log-likelihood : -207692.2187 
+   3 Log-likelihood : -203435.9228 
+   4 Log-likelihood : -186883.9796 
+   5 Log-likelihood : -182047.7846 
+   6 Log-likelihood : -179154.7125 
+   7 Log-likelihood : -176186.5152 
+   8 Log-likelihood : -173503.5166 
+   9 Log-likelihood : -171461.8626 
+  10 Log-likelihood : -170015.0619 
+  11 Log-likelihood : -168869.2525 
+  12 Log-likelihood : -168050.5401 
+  13 Log-likelihood : -167486.6393 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    14 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207919.1581 
+   2 Log-likelihood : -207647.9254 
+   3 Log-likelihood : -202530.4846 
+   4 Log-likelihood : -185851.7774 
+   5 Log-likelihood : -182705.4162 
+   6 Log-likelihood : -180071.6069 
+   7 Log-likelihood : -176937.5272 
+   8 Log-likelihood : -174675.0542 
+   9 Log-likelihood : -173465.3875 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    10 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207917.3906 
+   2 Log-likelihood : -207656.5520 
+   3 Log-likelihood : -203648.9232 
+   4 Log-likelihood : -187522.2861 
+   5 Log-likelihood : -181346.9259 
+   6 Log-likelihood : -177813.9427 
+   7 Log-likelihood : -174314.8936 
+   8 Log-likelihood : -171897.6558 
+   9 Log-likelihood : -170733.1243 
+  10 Log-likelihood : -169981.4508 
+*** Removing 1 component(s) ***
+  11 Log-likelihood : -170920.8129 
+  12 Log-likelihood : -170767.4398 
+  13 Log-likelihood : -170710.9958 
+  14 Log-likelihood : -170662.5244 
+  15 Log-likelihood : -170605.5904 
+  16 Log-likelihood : -170559.0456 
+  17 Log-likelihood : -170533.8117 
+  18 Log-likelihood : -170522.6223 
+  19 Log-likelihood : -170517.8202 
+  20 Log-likelihood : -170515.1001 
+  21 Log-likelihood : -170513.4046 
+  22 Log-likelihood : -170512.2830 
+  23 Log-likelihood : -170511.4647 
+  24 Log-likelihood : -170510.8018 
+  25 Log-likelihood : -170510.1835 
+  26 Log-likelihood : -170509.5245 
+  27 Log-likelihood : -170508.7286 
+  28 Log-likelihood : -170507.6651 
+  29 Log-likelihood : -170506.1481 
+  30 Log-likelihood : -170503.8529 
+  31 Log-likelihood : -170500.1950 
+  32 Log-likelihood : -170494.0438 
+  33 Log-likelihood : -170483.0600 
+  34 Log-likelihood : -170462.0657 
+  35 Log-likelihood : -170418.8704 
+  36 Log-likelihood : -170323.9349 
+  37 Log-likelihood : -170112.8151 
+  38 Log-likelihood : -169711.5346 
+  39 Log-likelihood : -169238.2347 
+  40 Log-likelihood : -168977.6535 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+    41 Log-likelihood: NA
+
+=== Iter 20 ===
+6 : *Classification: weighted 
+   1 Log-likelihood : -207924.2016 
+   2 Log-likelihood : -207754.5624 
+   3 Log-likelihood : -205223.4061 
+   4 Log-likelihood : -192429.8994 
+   5 Log-likelihood : -182657.4296 
+   6 Log-likelihood : -178609.5705 
+   7 Log-likelihood : -175440.5926 
+   8 Log-likelihood : -172531.1578 
+   9 Log-likelihood : -170590.1088 
+  10 Log-likelihood : -169304.0375 
+  11 Log-likelihood : -168715.5972 
+  12 Log-likelihood : -168625.7607 
+  13 Log-likelihood : -168606.4041 
+  14 Log-likelihood : -168585.1581 
+  15 Log-likelihood : -168554.2831 
+*** Removing 1 component(s) ***
+  16 Log-likelihood : -169696.5122 
+  17 Log-likelihood : -169660.3321 
+  18 Log-likelihood : -169656.4562 
+  19 Log-likelihood : -169654.5019 
+  20 Log-likelihood : -169653.5072 
+  21 Log-likelihood : -169652.9621 
+  22 Log-likelihood : -169652.6213 
+  23 Log-likelihood : -169652.3900 
+  24 Log-likelihood : -169652.2256 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207926.4842 
+   2 Log-likelihood : -207796.5231 
+   3 Log-likelihood : -205198.3121 
+   4 Log-likelihood : -189226.0423 
+   5 Log-likelihood : -183057.6341 
+   6 Log-likelihood : -180339.9816 
+   7 Log-likelihood : -176132.5267 
+   8 Log-likelihood : -172397.3623 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -207919.3271 
+   2 Log-likelihood : -207637.9694 
+   3 Log-likelihood : -203419.5757 
+   4 Log-likelihood : -188682.1145 
+   5 Log-likelihood : -182143.2269 
+   6 Log-likelihood : -179333.0836 
+   7 Log-likelihood : -176790.3361 
+   8 Log-likelihood : -173909.4384 
+   9 Log-likelihood : -171803.4625 
+  10 Log-likelihood : -170659.0501 
+  11 Log-likelihood : -169944.8836 
+  12 Log-likelihood : -169096.7017 
+  13 Log-likelihood : -168516.0697 
+  14 Log-likelihood : -168383.7192 
+  15 Log-likelihood : -168365.1591 
+  16 Log-likelihood : -168354.3434 
+  17 Log-likelihood : -168336.5822 
+  18 Log-likelihood : -168323.2725 
+  19 Log-likelihood : -168315.2259 
+  20 Log-likelihood : -168308.8739 
+  21 Log-likelihood : -168304.3743 
+  22 Log-likelihood : -168301.1787 
+  23 Log-likelihood : -168296.5317 
+  24 Log-likelihood : -168290.1124 
+  25 Log-likelihood : -168287.4743 
+  26 Log-likelihood : -168287.0775 
+  27 Log-likelihood : -168287.0408 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207895.0752 
+   2 Log-likelihood : -207099.6937 
+   3 Log-likelihood : -198133.0777 
+   4 Log-likelihood : -184399.3921 
+   5 Log-likelihood : -180773.4872 
+   6 Log-likelihood : -178589.5919 
+   7 Log-likelihood : -176733.4090 
+   8 Log-likelihood : -174828.7681 
+   9 Log-likelihood : -173030.2495 
+  10 Log-likelihood : -171574.8247 
+  11 Log-likelihood : -170786.0541 
+  12 Log-likelihood : -170311.0441 
+  13 Log-likelihood : -169927.2273 
+  14 Log-likelihood : -169777.8719 
+  15 Log-likelihood : -169728.6884 
+  16 Log-likelihood : -169698.7665 
+  17 Log-likelihood : -169679.2104 
+  18 Log-likelihood : -169667.2381 
+  19 Log-likelihood : -169660.1392 
+  20 Log-likelihood : -169655.5997 
+  21 Log-likelihood : -169652.2320 
+  22 Log-likelihood : -169649.3135 
+  23 Log-likelihood : -169646.4233 
+  24 Log-likelihood : -169643.2473 
+  25 Log-likelihood : -169639.5011 
+  26 Log-likelihood : -169634.9174 
+  27 Log-likelihood : -169629.2803 
+  28 Log-likelihood : -169622.5030 
+  29 Log-likelihood : -169614.7585 
+  30 Log-likelihood : -169606.5601 
+  31 Log-likelihood : -169598.6382 
+  32 Log-likelihood : -169591.5619 
+  33 Log-likelihood : -169585.3991 
+  34 Log-likelihood : -169579.7451 
+  35 Log-likelihood : -169573.8793 
+  36 Log-likelihood : -169566.7170 
+*** Removing 1 component(s) ***
+  37 Log-likelihood : -170333.4804 
+  38 Log-likelihood : -170283.1261 
+  39 Log-likelihood : -170282.4637 
+  40 Log-likelihood : -170282.2861 
+  41 Log-likelihood : -170282.1883 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -207913.3510 
+   2 Log-likelihood : -207462.1949 
+   3 Log-likelihood : -200371.7543 
+   4 Log-likelihood : -184924.1760 
+   5 Log-likelihood : -182142.8475 
+   6 Log-likelihood : -179622.4322 
+   7 Log-likelihood : -176944.0850 
+   8 Log-likelihood : -174512.8731 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     9 Log-likelihood: NA
+
+[1] "Finished. Clustering results are exported to RDS and CSV."
+[1] "BIC values:"
+344078.7,345424.6,338857.7,338266.8,340733.4,344198.6,341270.7,340216.4,337801.6,341966.9,345906.9,339939.7,337882.5,336331.6,339204.8,338719.6,338628.5,342989.5,338984,340608.4
+[1] "Mean BIC value: 340600.536557333"
+PBS Job 3908126.aqua
+CPU time  : 03:35:13
+Wall time : 03:36:39
+Mem usage : 323536kb

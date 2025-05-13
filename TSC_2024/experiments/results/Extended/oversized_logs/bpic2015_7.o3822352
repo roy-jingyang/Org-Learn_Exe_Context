@@ -1,0 +1,48 @@
+/home/yangj29/workspace/TSC_2024-sota
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: lattice
+[1] "data/bpic2015.preprocessed.csv"
+[1] 7
+=== Iter 1 ===
+7 : *Classification: weighted 
+   1 Log-likelihood : -5278617.7955 
+   2 Log-likelihood : -5277607.3113 
+   3 Log-likelihood : -5270860.1030 
+   4 Log-likelihood : -5235299.6559 
+   5 Log-likelihood : -5125173.9922 
+   6 Log-likelihood : -4968069.2258 
+   7 Log-likelihood : -4819723.7037 
+   8 Log-likelihood : -4720675.9332 
+   9 Log-likelihood : -4678423.2357 
+*** Removing 1 component(s) ***
+  10 Log-likelihood : -4697033.8832 
+  11 Log-likelihood : -4678887.9170 
+  12 Log-likelihood : -4672809.3943 
+  13 Log-likelihood : -4670040.8005 
+  14 Log-likelihood : -4668078.3957 
+  15 Log-likelihood : -4666186.4910 
+  16 Log-likelihood : -4664355.7028 
+  17 Log-likelihood : -4662775.2101 
+  18 Log-likelihood : -4661616.7531 
+=>> PBS: job killed: walltime 86403 exceeded limit 86400
+PBS Job 3822352.aqua
+CPU time  : 23:47:51
+Wall time : 24:00:06
+Mem usage : 11582772kb

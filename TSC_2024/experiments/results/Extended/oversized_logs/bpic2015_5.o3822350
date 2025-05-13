@@ -1,0 +1,52 @@
+/home/yangj29/workspace/TSC_2024-sota
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: lattice
+[1] "data/bpic2015.preprocessed.csv"
+[1] 5
+=== Iter 1 ===
+5 : *Classification: weighted 
+   1 Log-likelihood : -5279441.3201 
+   2 Log-likelihood : -5278255.1688 
+   3 Log-likelihood : -5270227.2286 
+   4 Log-likelihood : -5224733.2738 
+   5 Log-likelihood : -5121507.7576 
+   6 Log-likelihood : -5020134.5626 
+   7 Log-likelihood : -4923247.8456 
+   8 Log-likelihood : -4840034.2570 
+   9 Log-likelihood : -4791924.9989 
+  10 Log-likelihood : -4768320.1306 
+  11 Log-likelihood : -4756875.9666 
+  12 Log-likelihood : -4750240.3414 
+  13 Log-likelihood : -4740402.7624 
+  14 Log-likelihood : -4724872.6109 
+  15 Log-likelihood : -4711213.8936 
+  16 Log-likelihood : -4704752.7630 
+  17 Log-likelihood : -4700016.4797 
+  18 Log-likelihood : -4692955.5233 
+  19 Log-likelihood : -4684459.9828 
+  20 Log-likelihood : -4681454.6068 
+  21 Log-likelihood : -4681298.6201 
+  22 Log-likelihood : -4681304.7841 
+  23 Log-likelihood : -4681297.3637 
+=>> PBS: job killed: walltime 86415 exceeded limit 86400
+PBS Job 3822350.aqua
+CPU time  : 23:48:12
+Wall time : 24:00:18
+Mem usage : 12139080kb

@@ -1,0 +1,142 @@
+/home/yangj29/workspace/TSC_2024-sota
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: lattice
+[1] "data/bpic2017.preprocessed.csv"
+[1] 2
+=== Iter 1 ===
+2 : *Classification: weighted 
+   1 Log-likelihood : -6508156.4990 
+   2 Log-likelihood : -6508184.1307 
+   3 Log-likelihood : -6508177.6810 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -6508176.0173 
+   2 Log-likelihood : -6508254.3699 
+   3 Log-likelihood : -6508096.1747 
+   4 Log-likelihood : -6508046.2914 
+   5 Log-likelihood : -6507756.4240 
+   6 Log-likelihood : -6506511.1172 
+   7 Log-likelihood : -6502328.4124 
+   8 Log-likelihood : -6489477.4551 
+   9 Log-likelihood : -6465136.6709 
+  10 Log-likelihood : -6427830.7353 
+  11 Log-likelihood : -6388316.4850 
+  12 Log-likelihood : -6353424.2533 
+  13 Log-likelihood : -6329578.7733 
+  14 Log-likelihood : -6320228.4805 
+  15 Log-likelihood : -6316172.2005 
+  16 Log-likelihood : -6313149.9548 
+  17 Log-likelihood : -6311294.0996 
+  18 Log-likelihood : -6310124.3022 
+  19 Log-likelihood : -6309510.3646 
+  20 Log-likelihood : -6308999.3772 
+  21 Log-likelihood : -6309010.7179 
+  22 Log-likelihood : -6309133.5627 
+  23 Log-likelihood : -6308529.2506 
+  24 Log-likelihood : -6308802.2224 
+  25 Log-likelihood : -6308987.4769 
+  26 Log-likelihood : -6308765.7180 
+  27 Log-likelihood : -6308779.1097 
+  28 Log-likelihood : -6308793.7506 
+  29 Log-likelihood : -6308598.4745 
+  30 Log-likelihood : -6308509.5024 
+  31 Log-likelihood : -6308510.4068 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -6508160.1396 
+   2 Log-likelihood : -6508225.0889 
+   3 Log-likelihood : -6508186.6692 
+   4 Log-likelihood : -6508059.6081 
+   5 Log-likelihood : -6507808.4885 
+   6 Log-likelihood : -6506972.4891 
+   7 Log-likelihood : -6503506.6401 
+   8 Log-likelihood : -6492871.8440 
+   9 Log-likelihood : -6469893.6015 
+  10 Log-likelihood : -6440415.5256 
+  11 Log-likelihood : -6416731.3550 
+  12 Log-likelihood : -6397338.1498 
+  13 Log-likelihood : -6380535.5212 
+  14 Log-likelihood : -6366017.3953 
+  15 Log-likelihood : -6357172.4531 
+  16 Log-likelihood : -6351484.6471 
+  17 Log-likelihood : -6348499.2891 
+  18 Log-likelihood : -6345930.9258 
+  19 Log-likelihood : -6344362.3794 
+  20 Log-likelihood : -6343487.6463 
+  21 Log-likelihood : -6343296.5117 
+  22 Log-likelihood : -6343540.8599 
+  23 Log-likelihood : -6344497.8885 
+  24 Log-likelihood : -6343270.4432 
+  25 Log-likelihood : -6342639.9273 
+  26 Log-likelihood : -6341694.2245 
+  27 Log-likelihood : -6339199.2356 
+  28 Log-likelihood : -6338599.6001 
+  29 Log-likelihood : -6338307.0241 
+  30 Log-likelihood : -6338216.1441 
+  31 Log-likelihood : -6337810.1188 
+  32 Log-likelihood : -6337977.0194 
+  33 Log-likelihood : -6337936.3076 
+  34 Log-likelihood : -6338064.4127 
+  35 Log-likelihood : -6337746.2644 
+  36 Log-likelihood : -6337788.8703 
+  37 Log-likelihood : -6337899.0977 
+  38 Log-likelihood : -6337853.8725 
+  39 Log-likelihood : -6337915.8597 
+  40 Log-likelihood : -6337600.5042 
+  41 Log-likelihood : -6337625.8298 
+  42 Log-likelihood : -6337918.5635 
+  43 Log-likelihood : -6337790.2305 
+  44 Log-likelihood : -6337827.9382 
+  45 Log-likelihood : -6337708.6255 
+  46 Log-likelihood : -6337733.3104 
+  47 Log-likelihood : -6337761.0753 
+  48 Log-likelihood : -6337842.7694 
+  49 Log-likelihood : -6337701.9918 
+  50 Log-likelihood : -6337603.4871 
+  51 Log-likelihood : -6337832.7100 
+  52 Log-likelihood : -6337897.1617 
+  53 Log-likelihood : -6337776.1854 
+  54 Log-likelihood : -6337853.1821 
+  55 Log-likelihood : -6337591.0058 
+  56 Log-likelihood : -6337636.6653 
+  57 Log-likelihood : -6337712.2265 
+  58 Log-likelihood : -6337647.3307 
+  59 Log-likelihood : -6337615.1910 
+  60 Log-likelihood : -6337551.5164 
+  61 Log-likelihood : -6337488.2659 
+  62 Log-likelihood : -6337666.8112 
+  63 Log-likelihood : -6337668.9634 
+converged
+ *Classification: weighted 
+   1 Log-likelihood : -6508109.9254 
+   2 Log-likelihood : -6508042.1442 
+   3 Log-likelihood : -6508217.6074 
+   4 Log-likelihood : -6507912.3417 
+   5 Log-likelihood : -6507129.0292 
+   6 Log-likelihood : -6504247.4174 
+   7 Log-likelihood : -6495402.5107 
+   8 Log-likelihood : -6477074.1826 
+   9 Log-likelihood : -6445052.1515 
+  10 Log-likelihood : -6416986.8919 
+=>> PBS: job killed: walltime 86414 exceeded limit 86400
+PBS Job 3820791.aqua
+CPU time  : 23:51:24
+Wall time : 24:00:24
+Mem usage : 8840484kb

@@ -9,11 +9,15 @@
 # Ignore VS Code settings
 .vscode/
 
+# Ignore R history
+**/.Rhistory
+
 # Ignore ipython-notebook checkpoints
 **/.ipynb_checkpoints
 
 # Ignore data file
-data/*
+**/data
+**/input
 
 # Ignore pilot testing folder
 #pilot/*

@@ -1,0 +1,43 @@
+/home/yangj29/workspace/TSC_2024-sota
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: lattice
+[1] "data/bpic2015.preprocessed.csv"
+[1] 9
+=== Iter 1 ===
+9 : *Classification: weighted 
+   1 Log-likelihood : -5278626.8272 
+   2 Log-likelihood : -5277453.2071 
+   3 Log-likelihood : -5268899.8332 
+   4 Log-likelihood : -5218715.3096 
+   5 Log-likelihood : -5087972.5864 
+   6 Log-likelihood : -4931662.2978 
+   7 Log-likelihood : -4794183.9643 
+Error in FLXfit(model = model, concomitant = concomitant, control = control,  : 
+     8 Log-likelihood: NA
+ *Classification: weighted 
+   1 Log-likelihood : -5278624.6127 
+   2 Log-likelihood : -5277381.8703 
+   3 Log-likelihood : -5268463.0239 
+   4 Log-likelihood : -5222673.0370 
+=>> PBS: job killed: walltime 86411 exceeded limit 86400
+PBS Job 3822354.aqua
+CPU time  : 23:49:11
+Wall time : 24:00:21
+Mem usage : 11588480kb

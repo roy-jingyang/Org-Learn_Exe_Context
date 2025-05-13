@@ -1,0 +1,68 @@
+/home/yangj29/workspace/TSC_2024-sota
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Loading required package: lattice
+[1] "data/bpic2017.preprocessed.csv"
+[1] 5
+=== Iter 1 ===
+5 : *Classification: weighted 
+   1 Log-likelihood : -6507823.3092 
+   2 Log-likelihood : -6507811.6274 
+   3 Log-likelihood : -6507784.3214 
+   4 Log-likelihood : -6507684.9524 
+   5 Log-likelihood : -6507342.4422 
+   6 Log-likelihood : -6506069.3024 
+   7 Log-likelihood : -6501371.8121 
+   8 Log-likelihood : -6484356.1429 
+   9 Log-likelihood : -6436864.3745 
+  10 Log-likelihood : -6349384.5041 
+  11 Log-likelihood : -6249661.2316 
+  12 Log-likelihood : -6174352.6144 
+  13 Log-likelihood : -6132000.1024 
+  14 Log-likelihood : -6112980.5111 
+*** Removing 1 component(s) ***
+  15 Log-likelihood : -6105910.0682 
+  16 Log-likelihood : -6101690.1145 
+  17 Log-likelihood : -6098501.8200 
+  18 Log-likelihood : -6095879.1652 
+  19 Log-likelihood : -6093825.0578 
+  20 Log-likelihood : -6091680.9014 
+  21 Log-likelihood : -6089894.1658 
+  22 Log-likelihood : -6087266.2132 
+  23 Log-likelihood : -6085184.5136 
+  24 Log-likelihood : -6083211.7672 
+  25 Log-likelihood : -6081198.2739 
+  26 Log-likelihood : -6079017.6276 
+  27 Log-likelihood : -6076901.1709 
+  28 Log-likelihood : -6075043.6564 
+  29 Log-likelihood : -6073211.1769 
+  30 Log-likelihood : -6072004.2922 
+  31 Log-likelihood : -6071109.5875 
+  32 Log-likelihood : -6069930.7846 
+  33 Log-likelihood : -6068837.0816 
+  34 Log-likelihood : -6068210.6151 
+  35 Log-likelihood : -6067692.3218 
+  36 Log-likelihood : -6067051.3769 
+  37 Log-likelihood : -6066924.6818 
+  38 Log-likelihood : -6066637.5488 
+=>> PBS: job killed: walltime 86414 exceeded limit 86400
+PBS Job 3820794.aqua
+CPU time  : 23:50:14
+Wall time : 24:00:16
+Mem usage : 7210044kb
