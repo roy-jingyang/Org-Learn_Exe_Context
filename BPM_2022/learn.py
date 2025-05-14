@@ -10,13 +10,12 @@ import pandas as pd
 from ordinor.io import read_disco_csv
 from ordinor.execution_context import ODTMiner
 
-# input log
+# Read input log
 fn_log = sys.argv[1]
 
 el = read_disco_csv(fn_log)
 
-# specification
-
+# Define attribute specification
 spec = {
     'type_def_attrs': {
         # BPIC15
@@ -27,7 +26,8 @@ spec = {
     }
 }
 
-# run algorithm
-
+# Run learning algorithm
 miner = ODTMiner(el, spec, max_height=12, trace_history=True)
+
+# Label events by learning result
 
