@@ -26,6 +26,6 @@ We are working on intergrating this work into the
 Update 20250514: 
 Restructured folders and files to hold implementations separately.
 
-Update 20250515: 
+Update 20250519: 
 The algorithms for learning execution contexts have been integrated into the
-recent release of [OrdinoR](https://ordinor.readthedocs.io/).
+recent release of [OrdinoR](https://pypi.org/project/ordinor/).
