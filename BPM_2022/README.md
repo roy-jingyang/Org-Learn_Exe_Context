@@ -74,7 +74,7 @@ used in the following application.
 These are implemented through the two Jupyter notebooks. Both use the labeled
 and mapped event log file (`bpic15.preprocessed.labeled.mapped.csv`) as input:
 
-* `apply-omm.ipynb`: This corresponds to the "Resource Profile Analysis"
+* `apply-res_prof.ipynb`: This corresponds to the "Resource Profile Analysis"
   part in Section 6.3 of the paper.
 
 * `apply-omm.ipynb`: This corresponds to the "Organizational Model Discovery"
