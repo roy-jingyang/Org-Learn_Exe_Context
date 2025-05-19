@@ -9,7 +9,7 @@ International Conference, BPM 2022, Münster, Germany, September 11-16, 2022,
 Proceedings. (pp. 163–180). Springer.
 
 NOTE: This README file is created after the publication of the paper. However,
-the algorithm presented in the paper was not modifiled in any way other than
+the algorithm presented in the paper was not modified in any way other than
 being released as part of the OrdinoR package. 
 
 # Prerequisites
@@ -22,7 +22,7 @@ The merged BPIC-15 log is used.
 # Data Preprocessing
 The following preprocessing steps are done on the merged BPIC-15 log:
 
-* Derive a case attribute `case_parts_has_Bouw`. This correspondings to the
+* Derive a case attribute `case_parts_has_Bouw`. This corresponds to the
   user-specified categorization rules on attribute `case_parts`, described in
   Section 6.1 of the paper.
 * Derive an event attribute `phase` by extracting phase information from the
@@ -48,7 +48,7 @@ generates three files:
   case type, activity type, and time type of the execution context. 
 
 Note that in the labeled CSV, the case types, activity type, time types, and
-execution contexts are integer labels. To inteprete their meanings in terms of
+execution contexts are integer labels. To interpret their meanings in terms of
 the categorization rules, search for those integer labels in the
 `ODTMiner[...]_solutions.out` file to find the categorization rules. For example:
 
