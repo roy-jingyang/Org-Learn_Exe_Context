@@ -13,14 +13,14 @@ del-Río-Ortega, & S. Rinderle-Ma (Eds.), Business Process Management - 20th
 International Conference, BPM 2022, Münster, Germany, September 11-16, 2022,
 Proceedings. (pp. 163–180). Springer.
 
-* TSC 2024 (under review): 
+* TSC 2024: 
 Paper titled **Discovering Work Specialization through Process Mining**,
 currently under review.
 
 Please navigate to the corresponding folders for more specific information.
 
 Update 20220912:
-We are working on intergrating this work into the
+We are working on integrating this work into the
 [OrdinoR](https://ordinor.readthedocs.io/) library. Updates will follow. 
 
 Update 20250514: 
