@@ -68,7 +68,7 @@ if __name__ == '__main__':
     print_log_stats(log, spec)
 
     log.to_csv(fn_log + '.filtered.csv')
-    exit()
+    # exit()
 
     if variant == 'greedy':
         miner = GreedySearchMiner(

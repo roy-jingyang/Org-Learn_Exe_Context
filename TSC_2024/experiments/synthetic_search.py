@@ -22,20 +22,6 @@ if __name__ == '__main__':
     )
     print()
 
-    # Filter out events with meaningless resource labels or without any resource label
-    log = log[~log[const.RESOURCE].isin(['?'])]
-
-    # Filter out cases without medical attribute information
-    # NOTE: Exclude non-diagnostic attributes
-    cases_rm = set()
-    MED_ATTRS = [col for col in log.columns if col.startswith('case:Diagnostic')]
-    for case, events in log.groupby(const.CASE_ID):
-        for attr in MED_ATTRS:
-            if events[attr].isna().all():
-                cases_rm.add(case)
-                break
-    log = log[~log[const.CASE_ID].isin(cases_rm)]
-
     # Derive new columns based on the original ones
     # CT-related: N/A
     # AT-related: N/A
@@ -47,7 +33,7 @@ if __name__ == '__main__':
     for col in sorted(log.columns):
         print(col)
 
-    ct_cands = ['NULL', 'case:returning'] + MED_ATTRS
+    ct_cands = ['NULL', 'case:customer_type',]
     at_cands = ['NULL', const.ACTIVITY]
     tt_cands = ['NULL', 'month', 'weekday']
 
@@ -59,7 +45,6 @@ if __name__ == '__main__':
         for attr in l_type_def_attr:
             if attr != 'NULL':
                 spec['type_def_attrs'][attr] = {'attr_type': 'categorical', 'attr_dim': type_dim[i]}
-                # TODO: include numerical attributes
 
     # Print log stats
     print_log_stats(log, spec)
@@ -87,7 +72,7 @@ if __name__ == '__main__':
             log, spec, 
             init_method='zero',
             print_steps=True, trace_history=True,
-            size_neighborhood=15, T0=T0, Tmin=3e-4, alpha=0.95,
+            size_neighborhood=4, T0=T0, Tmin=3e-4, alpha=0.95,
             restart_interval=50
         )
         rl = miner.derive_resource_log(log)
