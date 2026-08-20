@@ -8,10 +8,10 @@ Please navigate to the corresponding folders for more specific information.
 ## Research papers
 
 * Paper published in the BPM 2022 conference proceedings. Cite as: Yang, J., Ouyang, C., ter Hofstede, A. H. M., & van
-  der Aalst, W. M. P. (2022). No Time to Dice: Learning Execution Contexts from Event Logs for Resource-Oriented Process
-  Mining. In C. Di Ciccio, R. M. Dijkman, A. del-Río-Ortega, & S. Rinderle-Ma (Eds.), Business Process Management - 20th
-  International Conference, BPM 2022, Münster, Germany, September 11-16, 2022, Proceedings. (pp. 163–180). Springer.
-  https://doi.org/10.1007/978-3-031-16103-2_13
+  der Aalst, W. M. P. (2022). **No Time to Dice: Learning Execution Contexts from Event Logs for Resource-Oriented
+  Process Mining.** In C. Di Ciccio, R. M. Dijkman, A. del-Río-Ortega, & S. Rinderle-Ma (Eds.), Business Process
+  Management - 20th International Conference, BPM 2022, Münster, Germany, September 11-16, 2022, Proceedings. (pp.
+  163–180). Springer. https://doi.org/10.1007/978-3-031-16103-2_13
 
 Navigate to folder `BPM_2022` for details.
 
