@@ -1,6 +1,3 @@
-Paper titled "Discovering Work Specialization through Process Mining",
-submitted, under review.
-
 Please use the following list to find the resources related to this paper:
 
 * For implementation of the proposed algorithm for learning execution contexts
